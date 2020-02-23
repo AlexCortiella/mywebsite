@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<main class = "post-main">
+  <div class = "post-container">
+    <section class = "post-header">
+      <div class = "post-header-supheadline">{{ page.categories | join: ' &middot; ' | prepend: '<span class="subheader">' | append: '</span>' }}{% if page.categories != empty and page.topic != NULL %} – {% endif %}{{ page.topic }}</div>
+      <h1>{{ page.title }}{% if page.featured %}&nbsp&nbsp<i class="far fa-star fa-xs" title = "Featured post" style = "color: #d4af37;"></i>{% endif %}</h1>
+      <div class = "post-header-subheadline">{% if page.publicationdate %}<i class="far fa-calendar-alt fa-xs"></i> {{ page.publicationdate | date-to-long-string }}{% endif %}{% if page.update %}&nbsp | &nbsp <i class="fas fa-history fa-xs"></i> {{ page.update }}{% endif %}{% if page.author %}&nbsp | &nbsp <i class="fas fa-pen fa-xs"></i> {{ page.author }}{% endif %}</div>
+      <img class = "post-header-image" src = {{ page.image.header }} alt="Machine learning">
+      <div class = post-header-share>
+        {% include share-bar.html %}
+      </div>
+    </section>
+  <section class = "post-teaser">
+    <hr>
+    {{page.teaser }}
+    <hr>
+  </section>
+  <section class = "post-content">
+
+    {{ content }}
+         
+  </section>
+  </div>
+</main>
+

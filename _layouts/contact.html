@@ -1,0 +1,57 @@
+---
+layout: default
+permalink: /contact/
+---
+
+<section class = "contact-main">
+  <div class = "contact-title"> Contact me <hr></div>
+
+  <div class = "contact-flexbox">
+
+      <div class = "contact-info">
+            <div class = "details-row">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <li class = "details-row-text" style ="list-style-type:none;">
+                      {{ site.data.contact.street }}<br>
+                      {{ site.data.contact.zip }} {{ site.data.contact.city }}, {{ site.data.contact.state }}<br>
+                      {{ site.data.contact.country }}<br>
+                      {{ site.data.contact.office }}<br>
+                  </li>
+            </div>
+            <div class = "details-row">
+                  <i class="fas fa-envelope" style = "padding-bottom: -3px;"></i>
+                  <li class = "details-row-text" style ="list-style-type:none;">{{ site.data.contact.email }}</li>
+            </div>
+            <div class = "details-row">
+                  <i class="fas fa-phone-alt"></i>
+                  <li class = "details-row-text" style ="list-style-type:none;">{{ site.data.contact.phone }}</li>
+            </div>        
+      </div>   
+      
+      <div class = "contact-form">
+            <form name="my-form" action="#" method="get">
+            <!-- all your input fields here.... -->
+            <div class="form-row">
+                  <label for="name">Name:</label>
+                  <input type="text" name="name" class="form-control" id="name" required="required" placeholder = "Your name">
+            </div>
+            <div class="form-row">
+                  <label for="subject" required="required">Subject:</label>
+                  <input type="subject" name="subject" class="form-control" id="subject" placeholder = "Your subject">
+            </div>
+            <div class="form-row">
+                  <label for="email" required="required">Email:</label>
+                  <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder = "Your email address">
+            </div>
+            <div class="form-row">
+                  <label for="msg">Message:</label>
+                  <textarea id="msg" name="user_message" placeholder = "Enter your message"></textarea>
+            </div>
+            <div class="form-row">
+                  <button type="submit" class="button">Submit</button>
+            </div>
+            </form>
+      </div>
+  </div>
+</section>
+

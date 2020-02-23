@@ -1,0 +1,219 @@
+.main-blog 
+  max-width: 960px
+  margin: 0 auto
+  margin-top: -20px
+  margin-bottom: 30px
+  padding: 20px 0 20px 0
+  display: flex
+  flex-direction: column
+  color: #111
+  background: rgba(255,255,255,1)
+  border-radius: 20px    
+  @media only screen and (min-width: 820px)
+    flex-direction: row
+    margin-top: 30px
+  .blog-sidebar
+    flex: 25
+    border-radius: 10px
+    padding: 20px
+    padding-left: 10px
+    .blog-sidebar-featured
+      padding: 10px
+      h3
+        margin: 0
+        border-bottom: 1px solid black
+        font-family: "Roboto", sans-serif
+        -webkit-font-smoothing: antialiased
+        text-transform: uppercase
+      ol
+        padding-left: 15px
+        li
+          margin: 0 0 30px 0
+    .blog-sidebar-categories
+      padding: 10px
+      h3
+        margin: 0
+        border-bottom: 1px solid black
+        font-family: "Roboto", sans-serif
+        -webkit-font-smoothing: antialiased
+        text-transform: uppercase
+      ol
+        padding-left: 15px
+        li
+          margin: 0 0 30px 0
+      
+  .blog-pagination
+    flex: 75
+    margin-left: auto
+    margin-top: 0
+    margin-bottom: 0
+    padding: 20px
+    padding-right: 10px
+    padding-bottom: 30px
+    border-radius: 10px
+    .pagination-post-container
+      margin: 0 0 40px 0
+      background: rgba(255,255,255,1)
+      border-radius: 10px
+      padding: 20px
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+      @media only screen and (max-width: 500px)
+        padding: 15px 30px 15px 30px
+      .supheadline
+        text-transform: uppercase
+        margin: 0
+        padding: 0
+      h2
+        margin: 10px 0 10px 0
+        padding: 0
+        font-size: 2.125em
+      .subheadline
+        display: flex
+        flex-direction: row
+        margin: 15px 0 15px 0
+        padding: 0
+        font-size: 0.75em
+        font-family: "Roboto", sans-serif
+        -webkit-font-smoothing: antialiased
+        text-transform: uppercase
+        .column-infopost
+          margin: 0 5px
+          display: flex
+          i
+            margin-right: 5px
+            font-size: 15px
+          .post_info_text
+            font-size: 15px
+            font-style: normal
+            @media only screen and (max-width: 500px)
+              font-size: 10px
+
+      .pagination-post-imageteaser
+        display: flex
+        flex-direction: column
+        justify-content: center
+        @media only screen and (min-width: 500px)
+          flex-direction: row
+          margin: 10px 0 5px 0
+        .pagination-post-image
+          text-align: center
+          img
+            width: 180px
+            height: 180px
+            border-radius: 10px
+            @media only screen and (max-width: 500px)
+              width: 100%
+              height: 100%
+            
+        .pagination-post-teaser
+          padding: 0 15px
+
+.pagination-container
+  ul
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    overflow: hidden
+    height: 60px
+
+    li
+    .radius-button-previous
+      border-radius: 30px
+      padding: 10px 15px 10px 15px
+      color: #4CAF50
+      border: 2px solid #4CAF50
+      font-size: 1.25em
+      text-decoration: none
+      align-items: flex-start
+      justify-content: left
+    .radius-button-previous:hover
+      background: #4CAF50
+      color: #fff
+
+    .page-counter
+      font-size: 1.25em
+      padding: 10px 15px 10px 15px
+      align-items: center
+      justify-content: center
+      align-content: center
+
+    .radius-button-next
+      border-radius: 30px
+      padding: 10px 15px 10px 15px
+      color: #4CAF50
+      border: 2px solid #4CAF50
+      font-size: 1.25em
+      text-decoration: none
+      align-items: flex-end
+      justify-content: right
+    .radius-button-next:hover
+      background: #4CAF50
+      color: #fff
+
+.post-main
+  max-width: 960px
+  margin: 0 auto
+  margin-top: -20px
+  margin-bottom: 30px
+  padding: 20px 0 20px 0
+  display: flex
+  color: #111
+  background: rgba(255,255,255,1)
+  border-radius: 20px    
+  @media only screen and (min-width: 820px)
+    margin-top: 30px
+  .post-container
+    margin: 0 auto
+    padding: 30px
+    max-width: 700px
+    background-color: #fff
+    .post-header
+      .post-header-supheadline
+        font-size: 1em
+        font-family: "Roboto", sans-serif
+        -webkit-font-smoothing: antialiased
+        text-transform: uppercase
+        margin: 10px 0 10px 0
+      h1
+        font-size: 2.25em
+        margin: 10px 0 10px 0
+      .post-header-image
+        max-width: 100%
+      .post-header-subheadline
+        font-family: "Roboto", sans-serif
+        -webkit-font-smoothing: antialiased
+        text-transform: uppercase
+        font-size: 0.75em
+        margin: 10px 0 10px 0
+    .post-teaser
+      font-weight: bold
+      font-style: italic
+      margin: 30px 0
+    .post-content
+
+#share-bar
+  hr
+    padding: 0
+    margin: 5px 0 5px 0
+  ul
+    margin: 0
+    padding: 0
+    
+    li
+      font-family: "Roboto", sans-serif
+      -webkit-font-smoothing: antialiased
+      text-transform: uppercase
+      font-weight: bold
+      font-size: 0.6em
+      display: inline-block
+      vertical-align: middle
+    li a
+      display: inline-block
+      width: 15px
+      margin-right: 5px
+      margin-left: 5px
+      display: inline-block
+      i
+        font-size: 20px
+        color: #0e76a8

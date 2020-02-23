@@ -1,0 +1,37 @@
+<div class="pagination-post-container">
+            <!--Post header -> subheadline + title-->
+            <p class="supheadline">{{ post.categories | join: ' &middot; ' | prepend: '<span class="subheader">' | append: '</span>' }}{% if post.categories != empty and post.subheadline != NULL %} – {% endif %}{{ post.subheadline }}</p>
+            <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" style = "text-decoration: none; color: black">{{ post.title }}{% if post.featured %}&nbsp&nbsp<i class="far fa-star fa-xs" title = "Featured post" style = "color: #d4af37;"></i>{% endif %}</a></h2>
+            <div class = "subheadline">
+              {% if post.publicationdate %}
+              <div class = "column-infopost">
+                <i class="far fa-calendar-alt fa-xs"></i><i class = post_info_text>{{ post.publicationdate | date-to-long-string }}</i> 
+              </div>
+              {% endif %}
+              {% if post.update %}
+              <div class = "column-infopost">
+                <i class="fas fa-history fa-xs"></i><i class = post_info_text>{{ post.update }}</i> 
+              </div>
+              {% endif %}
+              {% if post.author %}
+              <div class = "column-infopost">
+                <i class="fas fa-pen fa-xs"></i> <i class = post_info_text>{{ post.author }}</i> 
+              </div>
+              {% endif %}
+            </div>
+            <div class = "pagination-post-imageteaser">
+              <!--Post image-->
+              <div class = "pagination-post-image">
+                {% if post.image.thumb %}
+                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" alt="{{ page.title escape_once }}"></a>
+                {% endif %}
+              </div>
+              <!--Post teaser-->
+              <div class = "pagination-post-teaser">
+                {{ post.teaser | strip_html | escape_once }}
+                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
+              </div>
+              <!--Read more -> link to post page-->
+              
+            </div><!-- /.row -->
+    </div>

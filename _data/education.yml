@@ -1,0 +1,31 @@
+- institution: University of Colorado Boulder
+  date: "Expected: May 2021"
+  location: Boulder, CO, U.S.A.
+  title: Ph.D. in Aerospace Engineering Sciences
+  advisor: Dr. Alireza Doostan
+  collapsible_header1: Tasks
+  collapsible_header2: 
+  collapsible_body:
+    - Currently working on identification of nonlinear mechanical systems using sparse regularization methods, machine learning and artificial neural networks. My research focuses on identifying and understanding a physical model from noisy measurements and predicting its behavior.
+
+- institution: University of Colorado Boulder
+  date: 2016 - 2018
+  location: Boulder, CO, U.S.A.
+  title: MSc in Aerospace Engineering Sciences
+  advisor: Dr. K.C. Park
+  collapsible_header1: Tasks
+  collapsible_header2:
+  collapsible_body:
+    - Mentored students for the Statics, Structures and Materials course.
+
+- institution: Technical University of Catalonia (BarcelonaTech)
+  date: 2010 - 2014
+  location: Terrassa, Spain
+  title: B.S. in Aerospace Engineering
+  advisor: Dr. Juan Carlos Cante
+  collapsible_header1: B.S. Thesis
+  collapsible_header2: Study of numerical techniques for structural optimization in aeronautics
+  collapsible_body:
+    - Analyzed finite element and nonlinear optimization techniques applied to structural topology optimization of aerospace structures.
+    - Developed a software tool for structural topology optimization based on density methods.
+    - Optimized the topology of an aircraft wing rib structure subject to weight constraints and aerodynamic loads.

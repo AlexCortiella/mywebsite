@@ -1,0 +1,47 @@
+<!-- footer start -->
+
+<footer class="site_footer">
+  <section class = "site_footer-left"|>
+    <div class="site_footer-left-contact">
+    Aerospace Mechanics Research Center<br>
+    Department of Aerospace Engineering Sciences<br>
+    Boulder, CO 80303<br>
+    </div>
+    <br>
+    <!--<div>Subscribe to the RSS feed <a class="fas fa-rss-square" style="color:orange"></a></div>-->
+    <div class="page_footer-left-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.title }} <br> Created by {{ site.title }} </div>
+    
+
+  </section>
+  <section class = "site_footer-center"|>
+    
+  </section>
+  <section class = "site_footer-right"|>
+      <div class = "social-links">
+      {% for social in site.data.social %}
+        {% if social.url and social.icon %}
+          <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}"{% endif %}>
+            <i class="fab fa-{{ social.icon }}"></i>
+          </a>
+        {% endif %}
+      {% endfor %}
+      </div>
+      <!--
+      {% for link in site.social %}
+        {% if link.icon and link.url %}
+          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>-->
+  </section>
+  <!--
+  <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe!</span></a>
+    <div class="inner">
+         <section class="copyright">All content copyright <a href="mailto:{{ site.email}}">{{ site.name }}</a> &copy; {{ site.time | date: '%Y' }} &bull; All rights reserved.</section>
+         <section class="poweredby">Made with <a href="http://jekyllrb.com"> Jekyll</a></section>
+    </div>
+    -->
+
+</footer>
+
+<!-- footer end -->

@@ -1,0 +1,44 @@
+- id: 1
+  company: Aerospace Mechanics Research Center (AMReC)
+  date: Jan 2017 – Present
+  location: Boulder, CO, U.S.A
+  position: Graduate research assistant
+  description: Investigated novel finite element algorithms (FEA) for multiphysics interactions
+  advisor: Dr. Alireza Doostan & Dr. K.C. Park
+  collapsible_header1: Tasks
+  collapsible_header2: 
+  collapsible_body: 
+   - Analyzed the performance and accuracy of algorithms for non-matching interfaces - global and localized Lagrange multipliers, Mortar-like methods and projection techniques.
+   - Investigated the performance of mixed finite element formulations for acoustic fluid-structure interaction and liquid sloshing.
+   - Implemented staggered fluid-structure interaction algorithms with moving meshes.
+   - Developed novel numerical techniques for dynamic coupling of elastic structures under thermal loads.
+   - Currently working on nonlinear system identification of aerospace systems from noisy measurements using mechine learning techniques.
+
+- id: 2
+  company: Laboratory for Atmospheric and Space Physics (LASP)
+  date: Jun 2018 – Aug 2018
+  location: Boulder, CO, U.S.A
+  position: Data Scientist
+  description: Developed a particle model of Jupiter radiation belts from Juno spacecraft measurements.
+  advisor: Dr. Laila Anderson
+  collapsible_header1: Tasks
+  collapsible_header2: 
+  collapsible_body: 
+    - Analyzed data from Juno spacecraft to identify plasma and radiation particles of Jupiter’s radiation belts.
+    - Performed Monte Carlo simulations using ESA's Multi-Layered Shielding Simulation Software (MULASSIS).
+    - Developed software to model Jupiter radiation environment.
+
+
+- id: 3
+  company: UPC Nanosat Lab     
+  date: May 2015 – Aug 2016
+  location: Barcelona, Spain	
+  position: GNC Researcher
+  description: Designed, developed and simulated the attitude determination and control system of a 6U nanosatellite.
+  advisor: Dr. Adriano Camps
+  collapsible_header1: Tasks
+  collapsible_header2: 
+  collapsible_body: 
+   - Developed and designed control and determination algorithms of a 6U Cubesat whose aim is to test a new dual frequency GNSS-R altimeter for an Earth Observation mission. 
+   - Analyzed, simulated and validated tests of attitude determination and control systems (ADCS) for nanosatellites focused on magnetic actuation and reaction wheels. Performed Monte Carlo and sensitivity analyses.
+   - Programmed a spacecraft attitude dynamics and control simulator for nanosatellites focused on Low Earth Orbit missions. 

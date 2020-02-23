@@ -1,0 +1,18 @@
+---
+layout: default
+permalink: /blog/
+---
+    <!-- Main section of the blog page -->
+      <section class="main-blog">
+
+        <div class="blog-pagination">
+          {% include pagination.html %}
+        </div>
+         {% assign featuredPosts = site.posts | where:"featured", true %}
+         <div class="blog-sidebar">
+            {% include sidebar.html %}
+         </div>
+         
+          
+      </section>
+  <!--</section>-->

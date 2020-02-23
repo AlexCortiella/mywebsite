@@ -1,0 +1,161 @@
+---
+layout: default
+permalink: /CV/
+---
+<main class = "CV-main">
+    <section class = "CV-header">
+        <div class = "CV-image_profile">
+            <img src="{{site.author_image}}" alt="Profile Alexandre Cortiella">
+        </div>
+        <div class = "CV-personal_info">
+          <div class = "CV-title">
+              <h1>{{ site.data.contact.name }}</h1>
+              <h3>{{ site.data.contact.occupation }}</h3>
+          </div>
+          <div class = "CV-info">
+              <ul style = "list-style-type:none;">
+                  <li><i class="fas fa-map-marker-alt"></i><div class = "info-text">{{ site.data.contact.city}}, {{ site.data.contact.state }}&nbsp&nbsp{{ site.data.contact.country }}</div></li>
+                  <li><i class="fas fa-phone"></i><div class = "info-text">{{ site.data.contact.phone }}</div></li>
+                  <li><i class="fas fa-envelope"></i><div class = "info-link"><a href = "mailto: alexandre.cortiella@gmail.com" style = "text-decoration: none;">{{ site.data.contact.email }}</a></div></li>
+                  <li><i class="fab fa-linkedin"></i><div class = "info-link"><a href = "https://www.linkedin.com/in/alexandrecortiella/" style = "text-decoration: none;">{{ site.data.contact.linkedin }}</a></div></li>
+              </ul>
+          </div>
+        </div>
+    </section>
+    <section class = "CV-about_me">
+    <h2><i class="fas fa-user-alt"></i>&nbsp About me</h2>
+    <hr>
+    <p>{{ site.data.about_me.description }}</p>
+    </section>
+    <section class = "CV-work_experience">
+        <h2><i class="fas fa-briefcase"></i>&nbsp Work experience</h2>
+        <hr>
+        {% for item in site.data.experience %}
+        <div class = "CV-experience-container">
+            <!--
+            <div class = "CV-experience-flexbox">
+                <div class="grid-item"><div class = "CV-experience-company">{{ item.company }}</div></div>
+                <div class="grid-item"><div class = "CV-experience-date">{{ item.date }}</div></div>
+                <div class="grid-item"><div class = "CV-experience-position">{{ item.position }}</div></div>
+                <div class="grid-item"><div class = "CV-experience-location">{{ item.location }}</div></div>
+            </div>
+            -->
+            <div class="flex-grid">
+              <div class = "column1">
+                <div class="grid-item"><div class = "CV-item-bold" style = "align-self: flex-start;">{{ item.company }}</div></div>
+                <div class="grid-item"><div class = "CV-item-italic" style = "align-self: flex-start;">{{ item.position }}</div></div>
+              </div>
+              <div class = "column2">
+                <div class="grid-item"><div class = "CV-item-regular" style = "align-self: flex-end;">{{ item.date }}</div></div>
+                <div class="grid-item"><div class = "CV-item-regular" style = "align-self: flex-end;">{{ item.location }}</div></div>
+              </div>
+            </div>
+            <div class = "CV-experience-description">{{ item.description }}</div>
+            <div class="collapsible"><i>{{ item.collapsible_header1 }}</i>{%if item.collapsible_header2 !="" %}: {%endif%}{{item.collapsible_header2 | when: item.collapsible_header2}}</div>
+            <div class="content">
+                <ul>
+                    {% for task in item.collapsible_body %}
+                        <li>{{ task }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        {% endfor %}
+    </section>
+    <section class = "CV-education">
+        <h2><i class="fas fa-graduation-cap"></i>&nbsp Education</h2>
+        <hr>
+        {% for item in site.data.education %}
+        <div class = "CV-education-container">
+            <div class="flex-grid">
+              <div class = "column1">
+                <div class="grid-item"><div class = "CV-item-bold">{{ item.title }}</div></div>
+                <div class="grid-item"><div class = "CV-item-italic">{{ item.institution }}</div></div>
+              </div>
+              <div class = "column2">
+                <div class="grid-item"><div class = "CV-item-regular">{{ item.date }}</div></div>
+                <div class="grid-item"><div class = "CV-item-regular">{{ item.location }}</div></div>
+              </div>
+            </div> 
+            <div class="grid-item"><div class = "CV-item-regular">Advisor: {{ item.advisor }}</div></div>
+            <div class="collapsible"><i>{{ item.collapsible_header1 }}</i>{%if item.collapsible_header2 %}: {%endif%}{{item.collapsible_header2 | when: item.collapsible_header2}}</div>
+                <div class="content">
+                    <ul>
+                        {% for bullet in item.collapsible_body %}
+                            <li>{{ bullet }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+        </div>
+        {% endfor %}
+
+    
+    <section class = "CV-skills">
+        <h2><img src="/assets/images/CV-skills.svg" style = "height: 1em; width: 1em; margin-bottom: -3px; margin-left: -2px;"></img>&nbsp Skills</h2>
+        <hr>
+        <div class = skills-flexbox>
+            <div class = "skills-communication">
+                <h3>Communication</h3>
+                <strong>Spanish:</strong> Native<br>
+                <strong>Catalan:</strong> Native<br>
+                <strong>English:</strong> Fluent (CEFR-C1 certificate)<br>
+                <strong>French:</strong> Intermediate
+            </div>
+            <div class = "skills-technical">
+                <h3>Technical</h3>
+                <strong>O.S.:</strong> Windows / Linux<br>
+                <strong>Office:</strong> MS Word / MS Excel / MS Power Point / Latex 2.0<br>
+                <strong>Programming:</strong> C++ / MATLAB & Simulink / Python<br>
+                <strong>Engineering:</strong> Solid Works / CATIA V5 / AutoCad / ANSYS / Nastran<br>
+            </div>
+        </div>
+    </section>
+    <section class = "CV-honors_awards">
+        <h2><i class="fas fa-award"></i>&nbsp Honors & Awards</h2>
+        <hr>
+        
+        <ul>
+          {% for award in site.data.awards %}
+            <li>{{ award.award }} ({{ award.date }})</li>
+          {% endfor %}
+        </ul>
+        
+    </section>
+</section>
+<section class = "CV-additional_info">
+    <h2><img src="/assets/images/CV-additional.svg" style = "height: 1em; width: 1em; margin-bottom: -3px; margin-left: -2px;">&nbsp Additional info</h2>
+    <hr>
+
+    <div class="collapsible" style = "margin: 5px 0;"><i>Publications</i></div>
+        <div class="content">
+                <ul>
+                    {% for article in site.data.publications %}
+                        <li><a href = "{{ article.url }}" style = "text-decoration: none;">{{ article.authors }}. {{ article.title }}. {{ article.journal }}. Vol. {{ article.volume }} - {{ article.number }} ({{ article.year }}):pp. {{ article.pages }}</a></li>
+                    {% endfor %}
+                </ul>
+        </div>
+
+        <div class="collapsible" style = "margin: 5px 0;"><i>Conferences</i></div>
+        <div class="content">
+            <ul>
+                {% for conference in site.data.conferences %}
+                    <li><i style = "font-weight: bold; font-style: normal;">{{ conference.name }}</i>. {{ conference.date }}. {{ conference.location }}.<br>{%if conference.presentation %} Presentation: {{ conference.presentation }} {% endif %}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+    <div class="collapsible" style = "margin: 5px 0;"><i>Activities</i></div>
+        <div class="content">
+            <ul>
+                {% for activity in site.data.activities %}
+                    <li><i style = "font-weight: bold; font-style: normal;">{{ activity.activity }}</i>: {{ activity.description }}&nbsp({{ activity.date }})</li>
+                {% endfor %}
+            </ul>
+        </div>
+    <div class = "download_CV">
+        <a class="btn-download" href="/assets/downloads/Resume_Alexandre_Cortiella.pdf" download><i class="fa fa-download"></i>Resume</a>
+        <a class="btn-download" href="/assets/downloads/CV_Alexandre_Cortiella.pdf" download><i class="fa fa-download"></i>CV</a>
+    </div>
+</section>
+</main>
+

@@ -1,0 +1,13 @@
+<div class = "dropdown_menu">
+    <button onclick="myFunction()" class="dropbtn"></button>
+    <div id="myDropdown" class="dropdown-content">
+            
+            {% for item in site.data.navigation %}
+                    {% assign class = nil %}
+                    {% if page.url == item.url %}
+                        {% assign class = 'active' %}
+                    {% endif %}
+                    <a href="{{ item.url }}" class="{{ class }}">{{ item.title }}</a>
+            {% endfor %}
+    </div>
+</div>

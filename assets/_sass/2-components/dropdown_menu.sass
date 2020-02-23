@@ -1,0 +1,51 @@
+.dropdown_menu
+  position: absolute
+  margin-top: 20px
+  margin-left: 20px
+  float: right
+  width: 50px
+  height: 50px
+  display: inline-block
+  z-index: 9999999
+  @media screen and (min-width: 820px)
+    display: none
+  .dropbtn
+    width: 100%
+    height: 100%
+    background-color: #333
+    color: #aaa
+    border: none
+    border-radius: 5px
+    font-size: 25px
+    &:hover
+      background-color: #aaa
+      cursor: pointer
+      color: #333
+  .dropbtn::before
+    font-family: "Font Awesome 5 Free"
+    content: '\f0c9'
+    font-weight: 900
+  .dropdown-content
+    font-size: $rs/8*9
+    font-weight: bold
+    display: none
+    position: absolute
+    background-color: #333
+    min-width: 200px
+    overflow: auto
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)
+    left: 0
+    z-index: 1
+    a
+      color: #aaa
+      padding: 12px 16px
+      text-decoration: none
+      display: block
+    a:hover
+      background-color: #999
+      color: #111
+    a.active
+      background-color: #999
+      color: #111
+  .show
+    display: block

@@ -1,0 +1,145 @@
+.CV-main
+  display: flex
+  flex-direction: column
+  max-width: 860px
+  background: #fff
+  margin: 0 auto
+  margin-top: 50px
+  padding: 50px
+  border-radius: 20px
+  @media only screen and (max-width: 820px)
+    margin-top: -20px
+  .CV-header
+    display: flex
+    flex-direction: column-reverse
+    align-items: center
+    justify-content: center
+    @media only screen and (min-width: 820px)
+      flex-direction: row
+    .CV-image_profile
+      flex: 1
+      text-align: center
+      img
+        position: relative
+        max-width: 250px
+        max-height: 250px
+        float: left
+        background-size: cover
+        border-radius: 100%
+        border: 10px solid #aaa
+        
+    .CV-personal_info
+      flex: 4
+      .CV-title
+        h1
+          font-size: 2.5em
+          line-height: 1.25em
+          margin: 0
+          text-align: center
+          @media only screen and (min-width: 820px)
+            font-size: 3.5em
+        h3
+          font-size: 1em
+          font-weight: normal
+          margin: 10px
+          text-align: center
+          @media only screen and (min-width: 820px)
+            font-size: 1.25em
+      .CV-info
+        display: flex
+        text-align: center
+        @media only screen and (min-width: 820px)
+          padding-left: 100px
+        ul
+          li 
+            display: flex
+            flex-direction: row
+            i
+              flex: 0 0 auto
+              width: 20px
+              height: 20px
+              text-align: left
+              margin-right: 15px
+            .info-text
+              flex: 0 0 auto
+              text-align: right
+            .info-link
+              flex: 0 0 auto
+              text-align: right
+              color: black
+              text-decoration: none
+              &:hover
+                color: blue
+                cursor: pointer
+  h2
+    font-family: "Roboto"
+    text-transform: uppercase
+    font-size: 1.25rem
+  hr
+    margin-top: -10px
+    
+  .CV-about_me
+  .CV-work_experience
+    .CV-experience-container
+      margin: 30px 0
+    .CV-experience-description
+      margin-top: 15px
+  .CV-education
+    .CV-education-container
+      margin: 30px 0
+  .CV-skills
+    .skills-flexbox
+      display: flex
+      flex-direction: column
+      @media only screen and (min-width: 820px)
+        flex-direction: row
+      .skills-communication
+        flex: 40
+      .skills-technical
+        flex: 60
+  .CV-honors_awards
+    li
+      margin: 10px 0
+  .CV-publications
+  .CV-additional_info
+  .download_CV
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    margin-top: 50px
+    .btn-download
+      padding: 5px
+      border: 2px solid #4CAF50
+      border-radius: 30px
+      padding: 0.5em 1em 0.5em 1em
+      transition-duration: 0.4s
+      font-size: 20px
+      margin: 10px auto
+      text-decoration: none
+      color: #4CAF50
+      &:hover
+        background-color: #4CAF50
+        color: white
+        cursor: pointer
+      i
+        margin-right: 10px
+      
+.flex-grid
+  display: flex
+  flex-wrap: wrap
+  flex-direction: column
+  width: 100%
+  margin: 5px 0
+  @media only screen and (min-width: 820px)
+    flex-direction: row
+  .column1
+    flex: 70%
+    .CV-item-bold
+      font-weight: bold
+    .CV-item-italic
+      font-style: italic
+  .column2
+    flex: 30%
+    text-align: left
+    @media only screen and (min-width: 820px)
+      text-align: right

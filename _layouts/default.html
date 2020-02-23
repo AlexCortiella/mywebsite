@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <!-- This is head -->
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body>
+    {% include header.html %}
+    {% include dropdown_menu.html %} 
+    <!-- This is the navigation bar -->
+    {% include navbar.html %}
+    <!-- Main section of the index page -->
+    <section>
+      {{ content }}
+    </section>
+    <!--</section>-->
+
+    <!-- end of main section -->
+    <script type="text/javascript">
+      document.documentElement.className = 'no-fouc';
+      // add to document ready: $('.no-fouc').removeClass('no-fouc');
+    </script>
+    {% include js-link.html %}
+    {% include footer.html %}
+    {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
+  </body>
+</html>

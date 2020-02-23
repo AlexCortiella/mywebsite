@@ -1,0 +1,35 @@
+.collapsible
+  margin: 0
+  padding: 0
+  cursor: pointer
+  text-align: left
+  border: none
+  outline: none
+  background: none
+  i
+    font-weight: bold
+    font-style: normal
+.active
+  color: #0e76a8
+
+.collapsible
+  &:hover
+    color: #0e76a8
+
+  &:after
+    content: '\002B'
+    font-weight: bold
+    margin-left: 5px
+
+.collapsible_active:after
+  content: "\2212"
+
+.content
+  padding: 0 
+  max-height: 0
+  overflow: hidden
+  transition: max-height 0.3s ease-out
+  background-color: #f1f1f1
+  padding: 0 10px
+  li
+    margin: 10px 0

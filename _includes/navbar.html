@@ -1,0 +1,13 @@
+
+<nav class = "navbar">
+    <div class = "header-divider"></div>  
+    <ul>
+        {% for item in site.data.navigation %}
+              {% assign class = nil %}
+              {% if page.url == item.url %}
+                {% assign class = 'active' %}
+              {% endif %}
+                <li><a href="{{ item.url }}" class="{{ class }}">{{ item.title }}</a></li>
+            {% endfor %}
+    </ul>
+</nav>

@@ -1,0 +1,99 @@
+.contact-main
+  max-width: 860px
+  padding: 30px
+  margin: 0 auto
+  margin-top: 30px
+  margin-bottom: 30px
+  display: flex
+  flex-direction: column
+  background: rgba(255,255,255,1)
+  border-radius: 20px
+  @media only screen and (max-width: 820px)
+    margin-top: -20px
+  .contact-title
+    max-width: 640px
+    text-align: center
+    font-size: 32px
+    font-weight: bold
+    margin: 0 auto
+  .contact-flexbox
+    display: flex
+    flex-direction: column
+    margin: 0 auto
+    width: 100%
+    @media all and (min-width: 800px)
+      flex-direction: row 
+
+    .contact-info
+      margin: 0 auto
+      min-width: 260px
+      @media all and (min-width: 1000px)
+        margin-right: 20px
+      @media all and (min-width: 800px)
+        margin-right: 20px
+      .details-row
+        display: flex
+        margin: 0 0 1rem 0
+        content-alignment: left
+        flex-direction: row
+        i
+          flex-basis: 1.5rem
+    .contact-form
+      width: 100%
+      margin: 0 auto
+      .form-row
+        padding: 0.5rem 0
+        display: flex
+        flex-direction: column
+        @media all and (min-width: 1000px)
+          flex-direction: row
+
+        label
+          display: none
+          text-align: left
+          top: 0
+          @media all and (min-width: 800px)
+            display: block
+          @media all and (min-width: 1000px)
+            flex-basis: 5rem
+            flex-grow: 0
+            flex-shrink: 0
+
+        input
+          flex-basis: 100%
+          padding: 0.3em
+          max-width: 100%
+          box-sizing: border-box
+          border: 1px solid #999
+          border-radius: 0.5em
+          min-width: 200px
+          @media all and (min-width: 1000px)
+            flex-basis: 0
+            flex-grow: 1
+            flex-shrink: 1
+
+        textarea
+          max-width: 100%
+          box-sizing: border-box
+          border: 1px solid #999
+          border-radius: 0.5em
+          min-width: 200px
+          min-height: 200px
+          @media all and (min-width: 1000px)
+            flex-basis: 0
+            flex-grow: 1
+            flex-shrink: 1
+
+        button
+          padding: 5px
+          border: 1px solid #ccc
+          border-radius: 30px
+          padding: 0.5em 1em 0.5em 1em
+          width: 8em
+          transition-duration: 0.4s
+          font-size: 20px
+          margin: 0 auto
+          &:hover
+            background-color: #4CAF50
+            color: white
+            cursor: pointer

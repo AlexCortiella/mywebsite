@@ -1,0 +1,16 @@
+<!-- This is the header of the website-->
+<header class="main-header">
+  <div class="main-cover-image" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }})"{% endif %}>
+    Cover image
+  </div>
+  <!-- This is the logo appearing on the blog -->
+  <div class = "title-flexbox">
+    <div class = "logo-container">
+      <!--<div class="main-logo" style="background-image: url('{{ site.logo | prepend: site.baseurl }}')">{{ site.title }}</div>-->
+      <img class = "main-logo" src = "/assets/images/AClogospace.svg"></img>
+    </div>
+    <!-- This is the blog title and description -->
+    <h1 class="main-title">{{ site.title }}</h1>
+    <h2 class="main-description">{{ site.description }}</h2>
+  </div>
+</header>
