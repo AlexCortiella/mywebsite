@@ -18,7 +18,7 @@ image:
   caption_url: link to pic author
 ---
 
-First of all, I would like to thank you to visit my blog!
+First of all, I would like to thank you for visiting my blog!
 
 New year, new ! I have always wanted to start my own blog and discuss news in science and technology as well as topics related to my research but I have not had time until now. I feel motivated to contribute as much as I can with my background as an aerospace engineer and future doctor of engineering.  
 
