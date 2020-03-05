@@ -1,4 +1,5 @@
 <div class="pagination-post-container">
+            <a class="post-link" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"></a>
             <!--Post header -> subheadline + title-->
             <p class="supheadline">{{ post.categories | join: ' &middot; ' | prepend: '<span class="subheader">' | append: '</span>' }}{% if post.categories != empty and post.subheadline != NULL %} – {% endif %}{{ post.subheadline }}</p>
             <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" style = "text-decoration: none; color: black">{{ post.title }}{% if post.featured %}&nbsp&nbsp<i class="far fa-star fa-xs" title = "Featured post" style = "color: #d4af37;"></i>{% endif %}</a></h2>
