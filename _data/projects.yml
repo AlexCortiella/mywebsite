@@ -1,0 +1,18 @@
+- title: "Attitude Determination and Control of the 3Cat-2 nanosatellite"
+  description: "Analysis, design and development of the attitude determination and control system of a 6-unit Cubesat"
+  image: "3CAt2_Image.jpeg"
+  caption: "3Cat2 nanosatellite fully assembled"
+  url: /project_3Cat2/
+
+- title: "Topology optimization of an aircraft wing rib structure"
+  description: "Structural topology optimization of an aircraft wing rib subject to aerodynamic loads using Finite Element and Nonlinear Optimization techniques"
+  image: "TopOpt_WingRib.jpg"
+  caption: "Project - Topology optimization of an aircraft wing rib structure"
+  url: /project_TopOpt/
+
+- title: "Development of a Jupiter radiation model from Juno spacecraft data"
+  description: "Analysis and development of an electron radiation model of Jupiter magnetosphere using data collected by JEDI/JADE instruments onboard Juno spacecraft"
+  image: "Juno_spacecraft_lasp.jpg"
+  caption: "Project - Development of a Jovial radiation model from Juno spacecraft data"
+  url: /project_Junorad/
+  

@@ -5,9 +5,63 @@ permalink: /research/
 <section class = "main-research">
   <section class = "research-content">
     <div class = "research-title"> Research & Projects <hr></div>
-    <div class = "work_in_progress">
-      <img src = "/assets/images/work-in-progress.jpg">
-      <h1>This section will be available soon. <br>I am currently working on the updates</h1>
+    <p>This section presents my current research as a Ph.D. student a the University of Colorado Boulder and the most relevant projects I worked on in the past.</p>
+    <div class = "research-interests">
+      <h2>Research Interests</h2>
+      <hr>
+      <ul>
+        {% for item in site.data.research_interests %}
+          <li>{{ item.interest }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class = current-research>
+      <h2>Current Research</h2>
+      <hr>
+      <p>This is the research project I am currently working on</p>
+      <div class = current-project-container>
+        <div class="current-project">
+          <a class="current-project-link" href="{{site.data.current-project.url}}"></a>
+          <div class="current-project-content">
+            <div class = "current-project-image">
+              <img src="/assets/images/{{ site.data.current-project.image }}" alt="{{ site.data.current-project.caption }}" style="width:100%">
+            </div>
+            <div class="current-project-text">
+              <div class = "current-project-title">{{ site.data.current-project.title }}</div>
+              <div class = "current-project-description">{{ site.data.current-project.description}}</div>
+            </div>
+            <div class = view-btn>
+              View project
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+    <div class = "past-research">
+      <h2>Past Research</h2>
+      <hr>
+      <p>These are a selection of the most relevant research projects I worked on in the past.</p>
+
+      <div class = cards-container>
+        {% for item in site.data.projects %}
+        <div class="card">
+          <a class="card-link" href="{{item.url}}"></a>
+          <div class = "card-image">
+            <img src="/assets/images/{{ item.image }}" alt="{{ item.caption }}" style="width:100%">
+          </div>
+          <div class="card-content">
+            <div class="card-text">
+              <div class = "card-title">{{ item.title}}</div>
+              <div class = "card-description">{{ item.description}}</div>
+            </div>
+            <div class = view-btn>
+              View project
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+    </div>
     </div>
   </section>
+
 </section>

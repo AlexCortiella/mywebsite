@@ -26,7 +26,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://alexcortiella.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 #Page cover
-cover: "/assets/images/Cover.svg"
+#cover: "/assets/images/Cover.svg"
+cover: "/assets/images/HeaderACspacewebsite.svg"
+
 name: 'Alexandre Cortiella'
 author: 'Alexandre Cortiella'
 author_image: "/assets/images/author.jpg"
@@ -52,6 +54,9 @@ sass:
 #Paginator
 paginate_path: "/blog/page:num/"
 paginate: 2
+
+# Google services
+google_analytics: UA—XXXXXXXX-X
 
 # Exclude from processing.
 # The following items will not be processed, by default.
