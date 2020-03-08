@@ -12,7 +12,7 @@ topic: WELCOME!
 featured: yes
 tags: featured
 image: 
-  header: /assets/images/machine_learning.jpg
+  header: /assets/images/WelcomeToMyBlog.jpg
   thumb: /assets/images/Welcome_thumb.svg
   caption: Photo by AUTHOR
   caption_url: link to pic author
