@@ -1,10 +1,6 @@
 ---
 layout: blog
-title: ""
 permalink: /blog/
-pagination: 
-  enabled: true
-  permalink: /:num/
 ---
 
 This is the link to blog
