@@ -1,23 +1,19 @@
-{% for post in paginator.posts %}
-  {% include blogpost_layout.html %}
+{% for post in paginator.posts %}            
+    {% include blogpost_layout.html %}
 {% endfor %}
       
 <nav class="pagination-container">
+  {% if paginator.total_pages > 1 %}
   <ul>
     {% if paginator.previous_page %}
-        
-        {% if paginator.previous_page == 1 %}
-            <li style="list-style-type:none" ><a rel="prev" class="radius-button-previous" href="{{ site.url }}{{ site.baseurl }}/blog/" title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous }}</a></li>
-        {% else %}
-        <li style="list-style-type:none"><a rel="prev" class="radius-button-previous" href="{{ site.url }}{{ site.baseurl }}/blog/page{{ paginator.previous_page }}/" title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous }}</a></li>
-        {% endif %}
-        
+      <li style="list-style-type:none"><a rel="prev" class="radius-button-previous" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous }}</a></li>
     {% endif %}
 
     <li style="list-style-type:none"><div class = "page-counter">{{ paginator.page }} of {{ paginator.total_pages }}</div></li>
 
     {% if paginator.next_page %}
-    <li style="list-style-type:none"><a rel="next" class="radius-button-next"  href="{{ site.url }}{{ site.baseurl }}/blog/page{{ paginator.next_page }}/" title="{{ site.data.language.next_posts }}">{{ site.data.language.next }} &raquo;</a></li>
+    <li style="list-style-type:none"><a rel="next" class="radius-button-next"  href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="{{ site.data.language.next_posts }}">{{ site.data.language.next }} &raquo;</a></li>
     {% endif %}
   </ul>
+  {% endif %}
 </nav>

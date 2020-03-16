@@ -26,9 +26,20 @@
         -webkit-font-smoothing: antialiased
         text-transform: uppercase
       ol
-        padding-left: 15px
+        padding-left: 0
+        list-style: none
         li
-          margin: 0 0 30px 0
+          margin: 0
+          padding: 5px
+          border-radius: 5px
+          &:hover
+            background: #4CAF50
+            a
+              color: white
+          a
+            text-decoration: none
+            color: black
+            
     .blog-sidebar-categories
       padding: 10px
       h3
@@ -37,10 +48,21 @@
         font-family: "Roboto", sans-serif
         -webkit-font-smoothing: antialiased
         text-transform: uppercase
-      ol
-        padding-left: 15px
+      ul
+        padding-left: 0
+        list-style: none
         li
-          margin: 0 0 30px 0
+          margin: 0
+          padding: 5px
+          border-radius: 5px
+          &:hover
+            background: #4CAF50
+            a
+              color: white
+          a
+            text-decoration: none
+            color: black
+              
       
   .blog-pagination
     flex: 75
@@ -116,11 +138,27 @@
             
         .pagination-post-teaser
           padding: 0 15px
-
+          .read_more
+            text-align: right
+            margin-top: 10px
+            .read_more_text
+              font-weight: bold
+              border-radius: 30px
+              border: 2px solid #4CAF50
+              color: #4CAF50
+              padding: 10px
+        
       &:hover
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4)
         transition: 0.3s
         cursor: pointer
+        .pagination-post-imageteaser
+          .pagination-post-teaser
+            .read_more
+              .read_more_text
+                transition: 0.3s
+                background: #4CAF50
+                color: #fff
 
 .pagination-container
   ul
@@ -165,69 +203,3 @@
       background: #4CAF50
       color: #fff
 
-.post-main
-  max-width: 960px
-  margin: 0 auto
-  margin-top: -20px
-  margin-bottom: 30px
-  padding: 20px 0 20px 0
-  display: flex
-  color: #111
-  background: rgba(255,255,255,1)
-  border-radius: 20px    
-  @media only screen and (min-width: 820px)
-    margin-top: 30px
-  .post-container
-    margin: 0 auto
-    padding: 30px
-    max-width: 700px
-    background-color: #fff
-    .post-header
-      .post-header-supheadline
-        font-size: 1em
-        font-family: "Roboto", sans-serif
-        -webkit-font-smoothing: antialiased
-        text-transform: uppercase
-        margin: 10px 0 10px 0
-      h1
-        font-size: 2.25em
-        margin: 10px 0 10px 0
-      .post-header-image
-        max-width: 100%
-      .post-header-subheadline
-        font-family: "Roboto", sans-serif
-        -webkit-font-smoothing: antialiased
-        text-transform: uppercase
-        font-size: 0.75em
-        margin: 10px 0 10px 0
-    .post-teaser
-      font-weight: bold
-      font-style: italic
-      margin: 30px 0
-    .post-content
-
-#share-bar
-  hr
-    padding: 0
-    margin: 5px 0 5px 0
-  ul
-    margin: 0
-    padding: 0
-    
-    li
-      font-family: "Roboto", sans-serif
-      -webkit-font-smoothing: antialiased
-      text-transform: uppercase
-      font-weight: bold
-      font-size: 0.6em
-      display: inline-block
-      vertical-align: middle
-    li a
-      display: inline-block
-      width: 15px
-      margin-right: 5px
-      margin-left: 5px
-      display: inline-block
-      i
-        font-size: 20px
-        color: #0e76a8

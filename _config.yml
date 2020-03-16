@@ -40,7 +40,7 @@ markdown: kramdown
 plugins:
   #- jekyll-feed
   - jemoji
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
 exclude: 
   - Gemfile
@@ -51,9 +51,15 @@ sass:
   sass_dir: assets/_sass
   style: compressed
 
-#Paginator
-paginate_path: "/blog/page:num/"
-paginate: 2
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 2
+  permalink: '/page/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 # Google services
 google_analytics: UA—XXXXXXXX-X
