@@ -10,12 +10,8 @@
 	<section class="blog-sidebar-categories">
 		<h3>Categories</h3>
 		<ul>
-			{% for my_page in site.pages %}
-				{% if my_page.title and my_page.autogen == nil %}
-					{% if my_page.title != "" %}
-						<li><a class="categorie-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-					{% endif %}
-				{% endif %}
+			{% for category in site.data.categories %}
+				<li><a class="categorie-link" href="{{ category.url }}">{{ category.category }}</a></li>
 			{% endfor %}
 		</ul>
 	</section>
