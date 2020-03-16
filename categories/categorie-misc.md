@@ -1,11 +1,9 @@
 ---
 layout: blog
-title: ""
-permalink: /blog/
+title: Miscellaneous
+permalink: /misc/
 pagination: 
   enabled: true
+  category: misc
   permalink: /:num/
 ---
-
-This is the link to blog
-

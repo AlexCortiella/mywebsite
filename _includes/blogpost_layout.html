@@ -30,9 +30,8 @@
               <!--Post teaser-->
               <div class = "pagination-post-teaser">
                 {{ post.teaser | strip_html | escape_once }}
-                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
+                <div class = "read_more"><i class = "read_more_text">{{ site.data.language.read_more }}</i></div>
               </div>
               <!--Read more -> link to post page-->
-              
             </div><!-- /.row -->
     </div>
