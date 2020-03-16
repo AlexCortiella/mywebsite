@@ -6,7 +6,8 @@ teaser: I am very excited to start this blog and share my knowledge and thoughts
 publicationdate: January 26, 2020
 update: January 26, 2020
 author: Alexandre Cortiella
-categories: misc    
+categories: 
+    - "misc"
 topic: WELCOME!
 featured: yes
 tags: featured
