@@ -1,0 +1,26 @@
+---
+layout: default
+permalink: /misc/
+---
+    <!-- Main section of the blog page -->
+      <section class="main-blog">
+
+        <div class="blog-pagination">
+          {% for category in site.categories %}
+            {%- if category[0] == "Miscellaneous" -%}
+              <!-- <h2>{{ category[0] | upcase }}</h2>-->
+                {% for post in category[1] %}
+                  {% include blogpost_layout.html %}
+                {% endfor %}
+              {%- endif -%}
+          {% endfor %}
+
+        </div>
+         {% assign featuredPosts = site.posts | where:"featured", true %}
+         <div class="blog-sidebar">
+            {% include sidebar.html %}
+         </div>
+         
+          
+      </section>
+  <!--</section>-->
