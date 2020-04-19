@@ -4,7 +4,7 @@ subheadline: Space
 title:  Cubesats, a space revolution?
 teaser: Historically, accessing space has been a luxury only available to government agencies and high capital businesses. However, this trend has shifted in recent years owing to the surge of tiny, versatile miniaturized satellites called CubeSats. Since 1999, CubeSats have become increasingly popular as affordable solutions to access space. Nowadays, CubeSat technology is well supported by the space community and ready to take off, but will they revolutionize the space sector in the coming years?
 publicationdate: April 18, 2020
-update: April 18, 2020
+update: April 19, 2020
 author: Alexandre Cortiella
 categories: Aerospace
 topic: cubesats
