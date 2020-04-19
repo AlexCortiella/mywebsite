@@ -1,13 +1,13 @@
 ---
 layout: default
-permalink: /science&tech/
+permalink: /aerospace/
 ---
     <!-- Main section of the blog page -->
       <section class="main-blog">
 
         <div class="blog-pagination">
           {% for category in site.categories %}
-            {%- if category[0] == "Science & Technology" -%}
+            {%- if category[0] == "Aerospace" -%}
               <!-- <h2>{{ category[0] | upcase }}</h2>-->
                 {% for post in category[1] %}
                   {% include blogpost_layout.html %}
