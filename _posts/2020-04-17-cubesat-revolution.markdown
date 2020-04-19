@@ -16,7 +16,7 @@ image:
   caption: Photo by AUTHOR
   caption_url: link to pic author
 ---
-<p>Space-based observations have transformed our understanding of Earth, the solar system and the universe we live in. During the past decades, driven by our need of exploration and answering increasingly complicated  questions, space observations have become more sophisticated and costly, in the order of billion of dollars. Gathering data from satellites has been crucial not only for scientific research, but also for companies and businesses interested in extracting important information for their internal operations. Although sophisticated missions requiring large and heavy spacecraft will continue in the future, small satellites with affordable costs are gaining popularity among research centers and companies as an alternative to answer scientific questions and providing relevant data in a rapid, more affordable manner.</p>
+Space-based observations have transformed our understanding of Earth, the solar system and the universe we live in. During the past decades, driven by our need of exploration and answering increasingly complicated  questions, space observations have become more sophisticated and costly, in the order of billion of dollars. Gathering data from satellites has been crucial not only for scientific research, but also for companies and businesses interested in extracting important information for their internal operations. Although sophisticated missions requiring large and heavy spacecraft will continue in the future, small satellites with affordable costs are gaining popularity among research centers and companies as an alternative to answer scientific questions and providing relevant data in a rapid, more affordable manner.
 
 ## CubeSat? What is that?
 
@@ -32,15 +32,9 @@ As an example, figure 2 on the left, shows the <sup>3</sup>Cat-2 nanosatellite d
 
 Figure 3 shows an exploded view of <sup>3</sup>Cat-2 with each of its 1U modules. Three of the modules were used as payload, equipped with all the instrumentation to perform the tests and experiments. The remaining modules were intended for controlling the spacecraft, generating and distributing electric power and running the on-board software. The top panel consisted of six planar antennas for communications.
 
-![<small><strong>Figure 3:</strong> <sup>3</sup>Cat-2 CubeSat exploded view.</small>](/assets/images/images_blog/cubesat_revolution/3CAT2_exploded.jpg){:height="100%" width="100%"}
-
-<p style = "text-align: center">
-<img  src="/assets/images/images_blog/cubesat_revolution/3CAT2_exploded.jpg" alt="<strong>Figure 3:</strong> <sup>3</sup>Cat-2 CubeSat exploded view" width="100%" height="100%"> 
-</p>
-
 <figure style = "text-align: center">
   <img src="/assets/images/images_blog/cubesat_revolution/3CAT2_exploded.jpg" width="100%" height="100%">
-  <figcaption style = "text-align: justify"><strong>Figure 3:</strong> <sup>3</sup>Cat-2 CubeSat exploded view</figcaption>
+  <figcaption style = "text-align: justify"><small><strong>Figure 3:</strong> Exploded view of <sup>3</sup>Cat-2 showing its internal modules.</small></figcaption>
 </figure>
 
 <sup>3</sup>Cat-2Cat-2 was successfully put into a polar, 400 km Low-Earth Orbit by the Chinese Long March 2D launch vehicle in May 2016.
@@ -94,8 +88,6 @@ Nanosatellites can monitor radio signals transmitted from Earth. This means that
 ## From 1999 to 2020: The evolution of CubeSats in the last 20 years
 
 The CubeSat concept and program were originally developed in 1999 as a collaborative effort between Professors Jordi Puig-Suari, at California Polytechnic State University, and Bob Twiggs, at Stanford University to provide an affordable platform for the academic community to access space.  In early 2000’s, Cubesats were regarded as “toy” satellites to provide students with training in the  design, integration, test and operation of real spacecraft and enable researchers to perform space science and exploration. Cubesats were not initially set out to become a standard; rather, standards and specifications were developed over time as nanosatellites gained interest by the research community.
-
-![<small><strong>Figure 5:</strong> <sup>3</sup>Cat-2 CubeSat exploded view</small>](/assets/images/images_blog/cubesat_revolution/3CAT2_exploded.jpg){:height="100%" width="100%"}
 
 The first six Cubesats were launched in June 2003 abroad a Russian Rockot launch vehicle, with three more CubeSats aboard a Kosmos-3M rocket in 2005. During that time, Cubesat technology development began within universities, government agencies, and industry. In 2008, university-led programs made up 75% of all Cubesats launched. After 2010, new commercial players were emerging as technology providers and also as companies developing and launching entire CubeSat systems, mostly for Earth observation and communication applications. By the end of 2012, 112 CubeSat-class missions were flown, fielded by nearly 80 organizations from 24 countries on 29 rockets, representing universities, government agencies, private companies, and amateur organizations. In 2016, a record of satellites launched by a single rocket was established by PSLV, with 101 CubeSats launched at once along with 3 other satellites. Starting in 2018, CubeSats began to venture outside of Earth orbit. The first interplanetary CubeSats, the twin MarCO-A and MarCO-B,  were launched in May 2018 alongside NASA’s InSight lander on their way to Mars. As of January, 2020, 1200 CubeSats have been put into orbit by 65 countries. Figure 6 shows the evolution of nanosatellite launches from 1999 to 2020 and a forecast until 2023.
 
