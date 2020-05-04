@@ -53,7 +53,7 @@ sass:
 
 #Paginator
 paginate_path: "/blog/page:num/"
-paginate: 2
+paginate: 5
 
 # Google services
 google_analytics: UA—XXXXXXXX-X
