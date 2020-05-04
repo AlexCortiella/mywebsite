@@ -12,7 +12,7 @@ featured: yes
 tags: featured
 image: 
   header: /assets/images/images_blog/welcome/WelcomeToMyBlogU.jpg
-  thumb: /assets/images/images_blog/welcome/Welcome_thumb.svg
+  thumb: /assets/images/images_blog/welcome/Welcome_thumb.png
   caption: Photo by AUTHOR
   caption_url: link to pic author
 ---

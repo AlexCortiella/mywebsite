@@ -5,22 +5,22 @@ title:  How SpaceX lands Falcon 9 boosters?
 teaser: "After several attempts and numerous flight tests, on December 22, 2015 at 01:29 UTC, SpaceX accomplished one of the milestones in the history of engineering: landing Falcon 9's first-stage autonomously from space. It was the first time that the first stage of an orbital rocket made a successful return and vertical landing. The dream of launch vehicle reusability came true. The effort and persistence finally paid off. But, how did SpaceX slow down and stabilize a craft travelling at 3,000 miles per hour?"
 
 publicationdate: May 3, 2020
-update: May 3, 2020
+update: May 4, 2020
 author: Alexandre Cortiella
 categories: Aerospace
 topic: Falcon 9
 featured: yes
 tags: featured
 image: 
-  header: /assets/images/images_blog/F9_booster_recovery/F9_booster_recovery.png
-  thumb: /assets/images/images_blog/F9_booster_recovery/F9_booster_recovery_thumb.png
+  header: /assets/images/images_blog/F9_booster_recovery/F9_booster_recovery_med.jpg
+  thumb: /assets/images/images_blog/F9_booster_recovery/F9_booster_recovery_thumb_high.jpg
   caption: Photo by AUTHOR
   caption_url: link to pic author
 ---
 
 Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of spacecraft into orbit. Falcon 9 was designed from the ground up for maximum efficiency and reliability. Falcon 9’s simple two-stage configuration minimizes the number of separation events -- and with nine first-stage engines, it can safely complete its mission even in the event of an engine shutdown. 
 
-![<small><strong>Figure 1:</strong> Falcon 9 overview. Credit: <em>NASA/GSFC</em> </small>](/assets/images/images_blog/F9_booster_recovery/Falcon9_intro.png){:height="100%" width="100%"}
+![<small><strong>Figure 1:</strong> Falcon 9 overview. Credit: <em>NASA/GSFC</em> </small>](/assets/images/images_blog/F9_booster_recovery/Falcon9_intro_high.jpg){:height="100%" width="100%"}
 
 Falcon 9 is the first orbital class rocket capable of reflight, achieving the first fully automated landing from space on December 21, 2015. SpaceX believes rocket reusability is the key breakthrough needed to reduce the cost of access to space. In September 2011, SpaceX publicly announced its reusable launch system development program. The company began flight tests with the suborbital Grasshoper rocket and continued with F9R-Dev until 2014. Those tests were crucial to learn from failures and improve the design and systems of the Falcon 9. Bringing a rocket from space back to Earth to be flown again is an incredibly challenging engineering task. After deploying the payload into orbit, the rocket undergoes hypersonic velocities, and extreme vibrations and temperatures due to reentry into Earth's atmosphere. Not enough, the slender shape of the craft makes it really hard to stabilize and control the orientation and trajectory while descending at high speeds.
 
@@ -34,23 +34,23 @@ After acquiring valuable experience and feedback from numerous tests, the team o
 
 The Merlin 1D (M1D) thrusters are the last iteration of SpaceX’s in-house developed Merlin family engines that power the Falcon 9. Burning liquid oxygen LOX and rocket-grade kerosene (RP-1) propellant, nine M1D engines power the Falcon 9 first stage with up to 854 kN (190,000 lbf) thrust per engine at sea level, for a total thrust of 7,686 kN (1.71 million lbf) at liftoff. The first-stage engines are configured in a circular pattern (Octaweb), with eight engines surrounding a center engine.
 
-![<small><strong>Figure 2:</strong> Merlin 1D (M1D) rocket engine. Credit: <em>SpaceX.</em> </small>](/assets/images/images_blog/F9_booster_recovery/tvc_octaweb.png){:height="100%" width="100%"}
+![<small><strong>Figure 2:</strong> Merlin 1D (M1D) rocket engine. Credit: <em>SpaceX.</em> </small>](/assets/images/images_blog/F9_booster_recovery/tvc_octaweb_med.jpg){:height="100%" width="100%"}
 
 The key feature of fist-stage engines is re-ignition when starting the descend stage, consuming the remaining fuel to land the structure. Falcon 9 can sustain up to two engine shutdowns during flight and still successfully complete its mission. Each of the M1D engines can be gimballed on a single axis thanks to the thrust vector control (TVC) system, thus allowing the rocket to control the direction of thrust. The TVC pulls from the high-pressure kerosene system, rather than using a separate hydraulic fluid and pressurization system. Owing to the Octaweb arrangement, the engines can be gimballed to control pitch, roll and yaw. Thus, Falcon 9’s TVC allows for both attitude and trajectory control.
 
-![<small><strong>Figure 3:</strong> Rocket engine thrust vector control (TVC). The engines are gimbaled to create lateral forces and torques to control trajectory and attitude. Credit: <em>Alexandre Cortiella.</em> </small>](/assets/images/images_blog/F9_booster_recovery/Falcon9_TVC.svg){:height="100%" width="100%"}
+![<small><strong>Figure 3:</strong> Rocket engine thrust vector control (TVC). The engines are gimbaled to create lateral forces and torques to control trajectory and attitude. Credit: <em>Alexandre Cortiella.</em> </small>](/assets/images/images_blog/F9_booster_recovery/Falcon9_TVC.png){:height="100%" width="100%"}
 
 ### Cold gas thrusters (GN<sub>2</sub>)
 
 At the top of the first stage of the Falcon 9 rocket there are two pods of cold nitrogen gas thrusters (GN<sub>2</sub>). Each pad contains a cluster of 4 nozzles aimed at aft, left and right, and outboard. These 8 thrusters use the expansion of highly pressurized nitrogen to generate thrust and re-orient the first-stage booster during the descent phase. Owing to their location and orientation cold gas thrusters can control pitch, roll and yaw. The GN<sub>2</sub> is more reliable and produces less contamination than a propellant-based reaction control system.
 
-![<small><strong>Figure 4:</strong> Falcon 9's cold gas nitrogen thrusters. Credit: <em>SpaceX.</em> </small>](/assets/images/images_blog/F9_booster_recovery/cold_gas_thrusters.png){:height="100%" width="100%"}
+![<small><strong>Figure 4:</strong> Falcon 9's cold gas nitrogen thrusters. Credit: <em>SpaceX.</em> </small>](/assets/images/images_blog/F9_booster_recovery/cold_gas_thrusters_med.jpg){:height="100%" width="100%"}
 
 ### Grid fins
 
 Falcon 9 is equipped with small, foldable heat-resistant hypersonic grid fins needed for steering the first-stage as it plummets from the edge of space through Earth’s atmosphere. The fins are placed in an X-wing configuration and are stowed on ascent and deployed during reentry. The fins, which measure 4 feet by 5 feet, are steerable control surfaces that allow pitch, yaw and roll control by means of aerodynamic lift in order to target a precision landing. As the booster reenter Earth’s atmosphere, the air passes through the grid structure at hypersonic speed. By steering the fins, the air flow is deflected generating the aerodynamic force needed to control the trajectory and attitude of the first stage. As opposed to conventional planar fins, grid fins have notorious advantages for entry, descent, and landing operations, specially at hypersonic velocities.
 
-![<small><strong>Figure 5:</strong> Falcon 9 grid fins. You can see the old aluminum grid fins (left) that were replaced by the new titanium ones (right). Credit: <em>www.flickr.com/spacexphotos</em> </small>](/assets/images/images_blog/F9_booster_recovery/grid_fins.png){:height="100%" width="100%"}
+![<small><strong>Figure 5:</strong> Falcon 9 grid fins. You can see the old aluminum grid fins (left) that were replaced by the new titanium ones (right). Credit: <em>www.flickr.com/spacexphotos</em> </small>](/assets/images/images_blog/F9_booster_recovery/grid_fins_med.jpg){:height="100%" width="100%"}
 
 Some of the features that make grid fins suitable for Falcon 9’s descent are outlined below:
 
@@ -60,13 +60,13 @@ Some of the features that make grid fins suitable for Falcon 9’s descent are o
 
 3.	Compact size and possibility to be folded down to the fuselage. During ascent, fins are folded, inducing very little drag on the vehicle and optimizing its efficiency. Once the payload is deployed and the descent stage initiated, the fins are unfolded to stabilize the booster on its return to Earth.
 
-![<small><strong>Figure 6:</strong> Aerodynamic forces and hinge moments on grid fins. External forces and torques result from the deflection of the air flow. Credit: <em>Alexandre Cortiella</em> </small>](/assets/images/images_blog/F9_booster_recovery/grid_fins_forces_rev.svg){:height="100%" width="100%"}
+![<small><strong>Figure 6:</strong> Aerodynamic forces and hinge moments on grid fins. External forces and torques result from the deflection of the air flow. Credit: <em>Alexandre Cortiella</em> </small>](/assets/images/images_blog/F9_booster_recovery/grid_fins_forces_rev.png){:height="100%" width="100%"}
 
 ### Landing legs
 
 Falcon 9's first-stage carries landing legs which deploy few seconds before touchdown and allow for the rocket’s soft landing. The four legs are made of state-of-the-art carbon fiber with aluminum honeycomb. Placed symmetrically around the base of the rocket, they stow along the side of the vehicle during liftoff and later extend outward and down for landing. Deployment is accomplished by a pneumatic system using high-pressure helium. The total span of the four is approximately 18 meters (60 ft), and weigh less than 2,100 kilograms (4,600 lb).
 
-![<small><strong>Figure 7:</strong> Falcon 9 landing leg system. Credit: <em>www.flickr.com/spacexphotos</em> </small>](/assets/images/images_blog/F9_booster_recovery/Landing_leg.png){:height="100%" width="100%"}
+![<small><strong>Figure 7:</strong> Falcon 9 landing leg system. Credit: <em>www.flickr.com/spacexphotos</em> </small>](/assets/images/images_blog/F9_booster_recovery/Landing_leg_med.jpg){:height="100%" width="100%"}
 
 There are four major components on the Falcon 9 landing legs:
 

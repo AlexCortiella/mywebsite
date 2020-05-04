@@ -11,8 +11,8 @@ topic: cubesats
 featured: yes
 tags: featured
 image: 
-  header: /assets/images/images_blog/cubesat_revolution/CubeSat_revolution.png
-  thumb: /assets/images/images_blog/cubesat_revolution/CubeSat_revolution_thumb.png
+  header: /assets/images/images_blog/cubesat_revolution/CubeSat_revolution_med.jpg
+  thumb: /assets/images/images_blog/cubesat_revolution/CubeSat_revolution_thumb_high.jpg
   caption: Photo by AUTHOR
   caption_url: link to pic author
 ---
@@ -22,18 +22,18 @@ Space-based observations have transformed our understanding of Earth, the solar 
 
 CubeSats are types of miniaturized satellites that use a standardized sizes and shapes. They are made up of multiples of 10cm x 10cm x 10cm cubic units, referred as “1U”,  with a mass no more than 1.33 kg (2.9 lbs) per unit, and often use commercial-off-the-shelf (COTS) components for their subsystems. Although the base unit is a 1000cm^3 cube, Cubesats are extendable to larger sizes ranging from 0.25U to 27U (see figure 1). As a result, the engineering and development of CubeSats becomes less costly than other highly customized satellites. Their small size and light weight also reduce costs associated with transporting them to, and deploying them into, space.
 
-![<small><strong>Figure 1:</strong> Examples of CubeSats of different sizes and shapes. From left to right: <sup>3</sup>Cat-1 by NanoSat Lab, CP10 by California Polytechnic State University and ISIS 6U by Innovative Solutions in Space.</small>](/assets/images/images_blog/cubesat_revolution/ExampleCubesats.png){:height="100%" width="100%"}
+![<small><strong>Figure 1:</strong> Examples of CubeSats of different sizes and shapes. From left to right: <sup>3</sup>Cat-1 by NanoSat Lab, CP10 by California Polytechnic State University and ISIS 6U by Innovative Solutions in Space.</small>](/assets/images/images_blog/cubesat_revolution/ExampleCubesats_med.jpg){:height="100%" width="100%"}
 
 Cubesats are usually put into Low-Earth Orbit (LEO), Earth-centered orbits with an altitude of less than 2000km (1200 mi), and commonly deployed from the International Space Station (ISS) or from launch vehicles as secondary payloads. Originally, Cubesats were dispensed by a standardized deployment system called P-POD (Poly-Picosatellite Orbit Deployer) to ensure all developers to conform to common physical requirements. The P-POD minimizes potential interactions with primary payloads by enclosing Cubesats in a tubular structure.
 
-![<small><strong>Figure 2:</strong> <sup>3</sup>Cat-2Cat-2 CubeSat developed at NanoSat Lab by the Polytechnic University of Catalonia (left) and ISIS PPOD structure (right).</small>](/assets/images/images_blog/cubesat_revolution/3CAT2_And_PPOD.jpeg){:height="100%" width="100%"}
+![<small><strong>Figure 2:</strong> <sup>3</sup>Cat-2Cat-2 CubeSat developed at NanoSat Lab by the Polytechnic University of Catalonia (left) and ISIS PPOD structure (right).</small>](/assets/images/images_blog/cubesat_revolution/3CAT2_And_PPOD_high.jpg){:height="100%" width="100%"}
 
 As an example, figure 2 on the left, shows the <sup>3</sup>Cat-2 nanosatellite developed developed by the Nanosat lab of the Polytechnic University of Catalonia back in 2016. The aim of the 3Cat-2 mission was to test dual frequency GNSS-R altimeter for Earth Observation and validate two in-house magnetometer and star-tracker devices. 3Cat-2 belongs to the 6U class of Cubesats, consisting of 6 1U modules arranged in a 3 x 2 grid structure with dimensions 100 mm x 243,7 mm x 340.5mm and total weight of 7.1 kg (15.7 lbs). On the right of figure 2, we can see the P-POD used to deploy the spacecraft from the launch vehicle.
 
 Figure 3 shows an exploded view of <sup>3</sup>Cat-2 with each of its 1U modules. Three of the modules were used as payload, equipped with all the instrumentation to perform the tests and experiments. The remaining modules were intended for controlling the spacecraft, generating and distributing electric power and running the on-board software. The top panel consisted of six planar antennas for communications.
 
 <figure style = "text-align: center">
-  <img src="/assets/images/images_blog/cubesat_revolution/3CAT2_exploded.jpg" width="100%" height="100%">
+  <img src="/assets/images/images_blog/cubesat_revolution/3CAT-2_exploded_high.jpg" width="100%" height="100%">
   <figcaption style = "text-align: justify"><small><strong>Figure 3:</strong> Exploded view of <sup>3</sup>Cat-2 showing its internal modules.</small></figcaption>
 </figure>
 
@@ -101,13 +101,13 @@ As shown in figure 7, CubeSats begun as technology demonstrators among universit
 
 CubeSats are now commonly used in low Earth orbit for applications such as remote sensing and communications. Companies such as Planet Labs or Tyvak Aerospace offer access to their CubeSat fleet for monitoring, visualization, tracking or communications to name a few of their services. As we advance to a further democratization of space and Cubesat technology becomes well established and more reliable, seamless global coverage and interconnectivity seems increasingly appealing for industry. CubeSat constellations are envisioned to enable next generation wireless networks in space such as 5G connectivity and permit novel infrastructure solutions to bring IoT out of home. Recent startups, such as Swarm Technologies, Astrocast or Lacuna Space, are betting high on nanosatellites for IoT applications.
 
-![<small><strong>Figure 8:</strong> One of Swarm Technologies' "SpaceBee" nanosatellites. The company wants to operate a constellation of 150 tiny satellites to provide affordable satellite connectivity worldwide. Credit: <i>Swarm Technologies.</i></small>](/assets/images/images_blog/cubesat_revolution/SpaceBee_Swarm.png){:height="100%" width="100%"}
+![<small><strong>Figure 8:</strong> One of Swarm Technologies' "SpaceBee" nanosatellites. The company wants to operate a constellation of 150 tiny satellites to provide affordable satellite connectivity worldwide. Credit: <i>Swarm Technologies.</i></small>](/assets/images/images_blog/cubesat_revolution/SpaceBee_Swarm_med.jpg){:height="100%" width="100%"}
 
 The potential of these tiny satellites seems to have no limits. CubeSats are beginning to venture farther afield and are certainly changing the game when it comes to space exploration. The success of the MarCO mission set a reference to interplanetary missions using low-cost spacecraft. *“Getting into deep space like we did shows that this is only the beginning for CubeSat missions to explore the solar system […] We've put a stake in the ground. Future CubeSats might go even farther.”* said MarCO chief engineer Andrew Klesh.
 
 Exploration of deep space marks the next giant leap for nanosatellites. There are ambitious missions afoot to explore the Moon, Mars and near-Earth asteroids using CubeSats. These plans are led not just by government-space agencies but include university research groups, research laboratories and startups. Table 1 illustrates some of the upcoming deep space CubeSat missions.
 
-![<small><strong>Table 1:</strong> Examples of CubeSat interplanetary missions in the coming years.</small>](/assets/images/images_blog/cubesat_revolution/CubeSat_InterplanetaryMissionsTable.jpg){:height="100%" width="100%"}
+![<small><strong>Table 1:</strong> Examples of CubeSat interplanetary missions in the coming years.</small>](/assets/images/images_blog/cubesat_revolution/CubeSat_InterplanetaryMissions_table.jpg){:height="100%" width="100%"}
 
 Affordable nanosatellites are also a kind of gateway technology for those looking to get involved in space exploration.  Nations including Colombia, Poland, Estonia, Hungary, Romania and Pakistan have begun their own space programs by hitching a ride with a CubeSat. The Japanese Space Agency has collaborated with the United Nations Office for Outer Space Affairs (UNOOSA) to set up KiboCUBE, a project that offers developing countries the opportunity to deploy their own CubeSats from the ISS. This opens the possibility of future international cooperation and knowledge transfer, boosting the aerospace sector.
 
