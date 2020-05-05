@@ -53,7 +53,9 @@ Then, one needs to add the launch expenses, which depend on the type of orbit, c
 
 According to the above numbers, the average price to place a Cubesat in LEO orbit is less than $100,000 per unit, making the overall cost to develop and launch a Cubesat around $200,000 per unit. For comparison, the average cost to build and launch a large commercial spacecraft is around $300 M. 
 
-![<small><strong>Figure 4:</strong> Phoenix CubeSat Deployment from Nanoracks CubeSat Deployer on the International Space Station.</small>](/assets/images/images_blog/cubesat_revolution/CubeSatDeployment.gif){:height="100%" width="100%"}
+<video class = "blog_video" autoplay loop muted playsinline>
+    <source type="video/webm" src="/assets/images/images_blog/cubesat_revolution/CubeSatDeployment.webm">
+</video>
 
 Apart from the reduced cost, the biggest advantage of Cubesats is the short time period to develop each model. The standards and specific requirements allow the manufacturer to start the development with reference values in mind and accelerate the design, integration and testing phases. The required time can take from six months to two years depending on the application, as compared to conventional satellites that require five to fifteen years.
 
@@ -89,19 +91,21 @@ Nanosatellites can monitor radio signals transmitted from Earth. This means that
 
 The CubeSat concept and program were originally developed in 1999 as a collaborative effort between Professors Jordi Puig-Suari, at California Polytechnic State University, and Bob Twiggs, at Stanford University to provide an affordable platform for the academic community to access space.  In early 2000’s, Cubesats were regarded as “toy” satellites to provide students with training in the  design, integration, test and operation of real spacecraft and enable researchers to perform space science and exploration. Cubesats were not initially set out to become a standard; rather, standards and specifications were developed over time as nanosatellites gained interest by the research community.
 
+![<small><strong>Figure 4:</strong> A group of students performing random vibration tests at UPC NanoSat Lab facilities. Credit: <i>UPC NanoSat Lab</i></small>](/assets/images/images_blog/cubesat_revolution/CubesatTest_med.jpg){:height="100%" width="100%"}
+
 The first six Cubesats were launched in June 2003 abroad a Russian Rockot launch vehicle, with three more CubeSats aboard a Kosmos-3M rocket in 2005. During that time, Cubesat technology development began within universities, government agencies, and industry. In 2008, university-led programs made up 75% of all Cubesats launched. After 2010, new commercial players were emerging as technology providers and also as companies developing and launching entire CubeSat systems, mostly for Earth observation and communication applications. By the end of 2012, 112 CubeSat-class missions were flown, fielded by nearly 80 organizations from 24 countries on 29 rockets, representing universities, government agencies, private companies, and amateur organizations. In 2016, a record of satellites launched by a single rocket was established by PSLV, with 101 CubeSats launched at once along with 3 other satellites. Starting in 2018, CubeSats began to venture outside of Earth orbit. The first interplanetary CubeSats, the twin MarCO-A and MarCO-B,  were launched in May 2018 alongside NASA’s InSight lander on their way to Mars. As of January, 2020, 1200 CubeSats have been put into orbit by 65 countries. Figure 6 shows the evolution of nanosatellite launches from 1999 to 2020 and a forecast until 2023.
 
-![<small><strong>Figure 6:</strong> Nanosatellite launches with forecasts.  The launches from 1999 to 2002 were not considered CubeSats at that time. Credit: <i>nanosats.eu</i></small>](/assets/images/images_blog/cubesat_revolution/Nanosats_years_forecasts_2020-01-07.png){:height="100%" width="100%"}
+![<small><strong>Figure 5:</strong> Nanosatellite launches with forecasts.  The launches from 1999 to 2002 were not considered CubeSats at that time. Credit: <i>nanosats.eu</i></small>](/assets/images/images_blog/cubesat_revolution/Nanosats_years_forecasts_2020-01-07.png){:height="100%" width="100%"}
 
 As shown in figure 7, CubeSats begun as technology demonstrators among universities. The success of early missions encouraged industry and startup companies to adopt these tiny satellites for their services and operations.
 
-![<small><strong>Figure 7:</strong> Nanosatellite launches by organizations. Credit: <i>nanosats.eu</i></small>](/assets/images/images_blog/cubesat_revolution/Nanosats_years_organisations_2020-01-07.png){:height="100%" width="100%"}
+![<small><strong>Figure 6:</strong> Nanosatellite launches by organizations. Credit: <i>nanosats.eu</i></small>](/assets/images/images_blog/cubesat_revolution/Nanosats_years_organisations_2020-01-07.png){:height="100%" width="100%"}
 
 ## What are the future perspectives?
 
 CubeSats are now commonly used in low Earth orbit for applications such as remote sensing and communications. Companies such as Planet Labs or Tyvak Aerospace offer access to their CubeSat fleet for monitoring, visualization, tracking or communications to name a few of their services. As we advance to a further democratization of space and Cubesat technology becomes well established and more reliable, seamless global coverage and interconnectivity seems increasingly appealing for industry. CubeSat constellations are envisioned to enable next generation wireless networks in space such as 5G connectivity and permit novel infrastructure solutions to bring IoT out of home. Recent startups, such as Swarm Technologies, Astrocast or Lacuna Space, are betting high on nanosatellites for IoT applications.
 
-![<small><strong>Figure 8:</strong> One of Swarm Technologies' "SpaceBee" nanosatellites. The company wants to operate a constellation of 150 tiny satellites to provide affordable satellite connectivity worldwide. Credit: <i>Swarm Technologies.</i></small>](/assets/images/images_blog/cubesat_revolution/SpaceBee_Swarm_med.jpg){:height="100%" width="100%"}
+![<small><strong>Figure 7:</strong> One of Swarm Technologies' "SpaceBee" nanosatellites. The company wants to operate a constellation of 150 tiny satellites to provide affordable satellite connectivity worldwide. Credit: <i>Swarm Technologies.</i></small>](/assets/images/images_blog/cubesat_revolution/SpaceBee_Swarm_med.jpg){:height="100%" width="100%"}
 
 The potential of these tiny satellites seems to have no limits. CubeSats are beginning to venture farther afield and are certainly changing the game when it comes to space exploration. The success of the MarCO mission set a reference to interplanetary missions using low-cost spacecraft. *“Getting into deep space like we did shows that this is only the beginning for CubeSat missions to explore the solar system […] We've put a stake in the ground. Future CubeSats might go even farther.”* said MarCO chief engineer Andrew Klesh.
 
