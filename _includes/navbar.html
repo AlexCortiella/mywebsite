@@ -7,7 +7,7 @@
               {% if page.url == item.url %}
                 {% assign class = 'active' %}
               {% endif %}
-                <li><a href="{{ item.url }}" class="{{ class }}">{{ item.title }}</a></li>
+                <li><a href="{{ item.url }}" class="{{ class }}"><b>{{ item.title }}</b></a></li>
             {% endfor %}
     </ul>
 </nav>

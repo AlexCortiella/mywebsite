@@ -27,7 +27,7 @@ url: "http://alexcortiella.com" # the base hostname & protocol for your site, e.
 
 #Page cover
 #cover: "/assets/images/Cover.svg"
-cover: "/assets/images/background/HeaderSpaceBackground.svg"
+cover: "/assets/images/background/CoverSpaceBackground.png"
 
 name: 'Alexandre Cortiella'
 author: 'Alexandre Cortiella'
