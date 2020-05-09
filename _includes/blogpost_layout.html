@@ -29,8 +29,10 @@
               </div>
               <!--Post teaser-->
               <div class = "pagination-post-teaser">
-                {{ post.teaser | strip_html | escape_once }}
-                <div class = "read_more"><i class = "read_more_text">{{ site.data.language.read_more }}</i></div>
+                <div class = "pagination-post-teaser-text">
+                  {{ post.teaser | strip_html | escape_once }}
+                </div>
+                <div class = "read_more"><i class = "read_more_text">{{ site.data.language.read_more }}&raquo;</i></div>
               </div>
               <!--Read more -> link to post page-->
               
