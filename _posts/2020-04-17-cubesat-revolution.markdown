@@ -53,7 +53,7 @@ Then, one needs to add the launch expenses, which depend on the type of orbit, c
 
 According to the above numbers, the average price to place a Cubesat in LEO orbit is less than $100,000 per unit, making the overall cost to develop and launch a Cubesat around $200,000 per unit. For comparison, the average cost to build and launch a large commercial spacecraft is around $300 M. 
 
-<video class = "blog_video" autoplay loop muted playsinline>
+<video class = "blog_video" autoplay loop muted playsinline width="100%">
     <source type="video/webm" src="/assets/images/images_blog/cubesat_revolution/CubeSatDeployment.webm">
 </video>
 

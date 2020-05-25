@@ -104,21 +104,21 @@ After second-stage separation at around 70km of altitude, the first stage reorie
 ### 2. Boostback Burn
 At this point, 3 engines light to reverse the velocity, reorient and bring in trajectory of the booster toward landing site. The booster is traveling at nearly 3,000 miles per hour.
 
-<video class = "blog_video" autoplay loop muted playsinline>
+<video class = "blog_video" autoplay loop muted playsinline width="100%">
     <source type="video/webm" src="/assets/images/images_blog/F9_booster_recovery/boostback_burn.webm">
 </video>
 
 ### 3. Grid fins deployment
 After the flip and boostback burn maneuvers to reorient the booster toward Earth, the grid fins are unfolded to be ready for aerodynamic control.
 
-<video class = "blog_video" autoplay loop muted playsinline>
+<video class = "blog_video" autoplay loop muted playsinline width="100%">
     <source type="video/webm" src="/assets/images/images_blog/F9_booster_recovery/grid_fins_deployment.webm">
 </video>
 
 ### 4. Entry Burn
 This is the second of three burns where 3 of the M1D engines are ignited to help slow the stage down as it re-enters the upper part of the Earth’s atmosphere. This burn goes for about 20 seconds and drops speed from 3,000 miles per hour to about 560.
 
-<video class = "blog_video" autoplay loop muted playsinline>
+<video class = "blog_video" autoplay loop muted playsinline width="100%">
     <source type="video/webm" src="/assets/images/images_blog/F9_booster_recovery/entry_burn.webm">
 </video>
 
@@ -128,7 +128,7 @@ Here the grid fins are used to steer the stage, adjusting its trajectory and sta
 ### 6. Landing Burn
 At his stage, the central M1D engine lights one final time to slow down to about 5 miles per hour and bring the first stage to precision landing.
 
-<video class = "blog_video" autoplay loop muted playsinline>
+<video class = "blog_video" autoplay loop muted playsinline width="100%">
     <source type="video/webm" src="/assets/images/images_blog/F9_booster_recovery/landing_burn.webm">
 </video>
 
@@ -138,7 +138,7 @@ Few seconds before landing, the arm legs are deployed to absorb the landing impa
 ### 8. Touchdown and recovery
 The first stage lands either on ground or on the autonomous spaceport drone ship that is awaiting at sea and receiving telemetry to adjust its position for precision landing.
 
-<video class = "blog_video" autoplay loop muted playsinline>
+<video class = "blog_video" autoplay loop muted playsinline width="100%">
     <source type="video/webm" src="/assets/images/images_blog/F9_booster_recovery/touchdown.webm">
 </video>
 
