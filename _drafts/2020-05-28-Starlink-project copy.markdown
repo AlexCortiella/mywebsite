@@ -20,10 +20,10 @@ image:
 
 Some skywatchers around the world spotted a trail of lights in their night skies the past April 19. Baffled by the sparkling objects up in the sky, people hypothesized on social media what those lights could be. Some of them, even suggested a meteor shower, a top-secret defense project or even … aliens. The following video shows the strange glowing objects a skywatcher recorded.
 
-<video class = "blog_video" autoplay loop muted playsinline width="100%">
+<video class = "blog_video" autoplay loop muted playsinline width="80%">
     <source type="video/webm" src="/assets/images/images_blog/starlink_project/starlink-train.webm">
 </video>
-<small><strong>Animation 1:</strong> Starlink satellite train clearly visible from Earth. <i>Credit: ViralVideoLab.</i></small>
+<figcaption style = "text-align: justify"><small><strong>Animation 1:</strong> Starlink satellite train clearly visible from Earth. <i>Credit: ViralVideoLab.</i></small></figcaption>
 
 However, those theories were far from reality: those strange sparkling objects corresponded to a batch of state-of-the-art satellites the company SpaceX released for their ambitious project Starlink.
 Starlink is a SpaceX’s ambitious project that aims to provide high speed internet access across the globe by deploying the world’s most advanced broadband satellite constellation. The constellation will consist of thousands of small satellites in Low-Earth Orbit along with a ground network infrastructure.
@@ -90,10 +90,10 @@ How does Starlink plan to provide global broadband internet? Starlink satellites
 
 The following animation (retrieved from [Professor Mark Handley](https://www.youtube.com/watch?v=k73AFybi7zk "Starlink first phase animation")) shows how the initial stage constellation may look like.
 
-<video class = "blog_video" autoplay loop muted playsinline width="100%">
+<video class = "blog_video" autoplay loop muted playsinline width="80%">
     <source type="video/webm" src="/assets/images/images_blog/starlink_project/StarlinkFirstPhaseOrbit.webm">
 </video>
-<small><strong>Animation 2:</strong> Starlink's first phase orbital shell. <i>Credit: Mark Handley</i></small>
+<figcaption style = "text-align: justify"><small><strong>Animation 2:</strong> Starlink's first phase orbital shell. <i>Credit: Mark Handley</i></small></figcaption>
 
 This constellation architecture will enable high-speed global internet coverage, and SpaceX plans to complete the deployment by November 2027. [Forbes](https://www.forbes.com/sites/greatspeculations/2020/02/13/how-much-value-can-spacex-unlock-from-starlinks-proposed-ipo/#20f968b46a7c "Starlink valuation") estimates that Starlink could be valued at a little over $30 billion, assuming 2025 revenues of about $10.4 billion and a P/S multiple of about 3x.
 
@@ -109,10 +109,10 @@ Each satellite weighs approximately 260kg and features a compact, flat panel des
 
 Starlink satellites are equipped with efficient Hall-effect ion thrusters powered by krypton that enable satellites to orbit raise, maneuver in space, and deorbit at the end of their useful life. 
 
-<video class = "blog_video" autoplay loop muted playsinline width="100%">
+<video class = "blog_video" autoplay loop muted playsinline width="80%">
     <source type="video/webm" src="/assets/images/images_blog/starlink_project/ion-thruster.webm">
 </video>
-<small><strong>Animation 3:</strong> Ion thruster technology. <i>Credit: Real engineering.</i></small>
+<figcaption style = "text-align: justify"><small><strong>Animation 3:</strong> Ion thruster technology. <i>Credit: Real engineering.</i></small></figcaption>
 
 # Single solar array
 
@@ -136,10 +136,10 @@ With 4 powerful K<subscript>u</subscript> and K<subscript>a</subscript> band pha
 
 SpaceX has been secretive on the details of the inter-communication between satellites, but the last released FCC filing shows that each satellite will contain 5 individual lasers which will transmit information from satellite to satellite via light pulses. How will SpaceX ensure that the pointing requirements are met at all times for this system to work? We do not know yet, but the coming Starlink tests will tell.
 
- <video class = "blog_video" autoplay loop muted playsinline width="100%">
+ <video class = "blog_video" autoplay loop muted playsinline width="80%">
     <source type="video/webm" src="/assets/images/images_blog/starlink_project/starlink-laser-interlink.webm">
 </video>
-<small><strong>Animation 4:</strong> Starlink inter-satellite laser communication. <i>Credit: Mark Handley.</i></small>
+<figcaption style = "text-align: justify"><small><strong>Animation 4:</strong> Starlink inter-satellite laser communication. <i>Credit: Mark Handley.</i></small></figcaption>
 
 # Autonomous collision avoidance
 
@@ -162,7 +162,7 @@ Designed and built upon the heritage of Dragon, each spacecraft is equipped with
 SpaceX's Starlink project raised concern among the astronomy community. Astronomers claim that the number of visible satellites will outnumber visible stars and that their brightness in both optical and radio wavelengths will severely impact scientific observations. SpaceX announced that they are working on reducing the albedo of the satellites and will provide on-demand orientation adjustments for astronomical experiments.
 
 <figure style = "text-align: center">
-  <img src="/assets/images/images_blog/starlink_project/starlink-ruin-observations.jpg" width="100%">
+  <img src="/assets/images/images_blog/starlink_project/starlink-ruin-observations.jpg" width="60%">
   <figcaption style = "text-align: justify"><small><strong>Figure 6:</strong> Starlink Satellites Imaged from CTIO by the DELVE Survey. <i>Credit: NSF’s National Optical-Infrared Astronomy Research Laboratory/CTIO/AURA/DELVE</i></small></figcaption>
 </figure>
 
@@ -174,15 +174,15 @@ As of April 22, 2020 SpaceX has launched 422 starlink satellites. Additional lau
 
 ## References
 
-1) [Starlink website](https://www.starlink.com/)
+[1] Starlink website: [https://www.starlink.com/](https://www.starlink.com/)
 
-2) [Wikipedia article](https://en.wikipedia.org/wiki/Starlink)
+[2] Wikipedia article: [https://en.wikipedia.org/wiki/Starlink](https://en.wikipedia.org/wiki/Starlink)
 
-3) [Professor Mark Handley research](http://nrg.cs.ucl.ac.uk/mjh/starlink/)
+[3] Professor Mark Handley research: [http://nrg.cs.ucl.ac.uk/mjh/starlink/](http://nrg.cs.ucl.ac.uk/mjh/starlink/)
 
-4) [Real Engineering](https://www.youtube.com/channel/UCR1IuLEqb6UEA_zQ81kwXfg)
+[4] Real Engineering: [https://www.youtube.com/channel/UCR1IuLEqb6UEA_zQ81kwXfg](https://www.youtube.com/channel/UCR1IuLEqb6UEA_zQ81kwXfg)
 
-5) [Federal Communications Commission (FCC)](https://www.fcc.gov/document/fcc-authorizes-spacex-provide-broadband-satellite-services)
+[5] Federal Communications Commission (FCC): [https://www.fcc.gov/document/fcc-authorizes-spacex-provide-broadband-satellite-services](https://www.fcc.gov/document/fcc-authorizes-spacex-provide-broadband-satellite-services)
 
 -----------------------------------------------------------------------------------------------------
 
