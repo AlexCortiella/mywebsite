@@ -4,7 +4,7 @@ subheadline: Space
 title:  Cubesats, a space revolution?
 teaser: Historically, accessing space has been a luxury only available to government agencies and high capital businesses. However, this trend has shifted in recent years owing to the surge of tiny, versatile miniaturized satellites called CubeSats. Since 1999, CubeSats have become increasingly popular as affordable solutions to access space. Nowadays, CubeSat technology is well supported by the space community and ready to take off, but will they revolutionize the space sector in the coming years?
 publicationdate: April 18, 2020
-update: April 19, 2020
+update: May 25, 2020
 author: Alexandre Cortiella
 categories: Aerospace
 topic: cubesats
@@ -56,6 +56,8 @@ According to the above numbers, the average price to place a Cubesat in LEO orbi
 <video class = "blog_video" autoplay loop muted playsinline width="100%">
     <source type="video/webm" src="/assets/images/images_blog/cubesat_revolution/CubeSatDeployment.webm">
 </video>
+<figcaption style = "text-align: justify"><small><strong>Animation 1:</strong> Phoenix CubeSat Deployment from Nanoracks CubeSat Deployer on ISS
+.<i>Credit: Nanoracks.</i></small></figcaption>
 
 Apart from the reduced cost, the biggest advantage of Cubesats is the short time period to develop each model. The standards and specific requirements allow the manufacturer to start the development with reference values in mind and accelerate the design, integration and testing phases. The required time can take from six months to two years depending on the application, as compared to conventional satellites that require five to fifteen years.
 
@@ -116,6 +118,26 @@ Exploration of deep space marks the next giant leap for nanosatellites. There ar
 Affordable nanosatellites are also a kind of gateway technology for those looking to get involved in space exploration.  Nations including Colombia, Poland, Estonia, Hungary, Romania and Pakistan have begun their own space programs by hitching a ride with a CubeSat. The Japanese Space Agency has collaborated with the United Nations Office for Outer Space Affairs (UNOOSA) to set up KiboCUBE, a project that offers developing countries the opportunity to deploy their own CubeSats from the ISS. This opens the possibility of future international cooperation and knowledge transfer, boosting the aerospace sector.
 
 More small spacecraft are on the way and it seems they will revolutionize the aerospace sector as a low-cost, faster alternative to access space. National Aerospace Agencies, Universities, research Laboratories and startup companies are set to launch a variety of new CubeSats in coming years. The future of these tiny satellites is promising and only time will tell how far they can get.
+
+## References
+
+1) [Nanosats Database](https://www.nanosats.eu/)
+
+2) [NASA Science, 10 Things: CubeSats — Going Farther](https://solarsystem.nasa.gov/news/834/10-things-cubesats-going-farther/)
+
+3) [JPL's Cubesat website](https://www.jpl.nasa.gov/cubesat/missions/marco.php)
+
+4) [UPC NanoSat Lab - 3Cat-2](https://nanosatlab.upc.edu/en/missions-and-projects/3cat-2)
+
+5) [Deep-space CubeSats: thinking inside the box (article by Roger Walker)](http://www.esa.int/gsp/ACT/doc/MAD/pub/ACT-RPR-MAD-2018-MARGO.pdf)
+
+6) [ESA Cubesats website](https://www.esa.int/Enabling_Support/Preparing_for_the_Future/Discovery_and_Preparation/CubeSats)
+
+7) [Towards the Thousandth CubeSat: A Statistical Overview](https://www.hindawi.com/journals/ijae/2019/5063145/)
+
+8) [Wikipedia article about Cubesats](https://en.wikipedia.org/wiki/CubeSat)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 

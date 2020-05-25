@@ -5,7 +5,7 @@ title:  How SpaceX lands Falcon 9 boosters?
 teaser: "After several attempts and numerous flight tests, on December 22, 2015 at 01:29 UTC, SpaceX accomplished one of the milestones in the history of engineering: landing Falcon 9's first-stage autonomously from space. It was the first time that the first stage of an orbital rocket made a successful return and vertical landing. The dream of launch vehicle reusability came true. The effort and persistence finally paid off. But, how did SpaceX slow down and stabilize a craft travelling at 3,000 miles per hour?"
 
 publicationdate: May 3, 2020
-update: May 4, 2020
+update: May 25, 2020
 author: Alexandre Cortiella
 categories: Aerospace
 topic: Falcon 9
@@ -107,6 +107,7 @@ At this point, 3 engines light to reverse the velocity, reorient and bring in tr
 <video class = "blog_video" autoplay loop muted playsinline width="100%">
     <source type="video/webm" src="/assets/images/images_blog/F9_booster_recovery/boostback_burn.webm">
 </video>
+<figcaption style = "text-align: justify"><small><strong>Animation 1:</strong> Flip maneuver and boostback burn.<i>Credit: SpaceX.</i></small></figcaption>
 
 ### 3. Grid fins deployment
 After the flip and boostback burn maneuvers to reorient the booster toward Earth, the grid fins are unfolded to be ready for aerodynamic control.
@@ -114,6 +115,8 @@ After the flip and boostback burn maneuvers to reorient the booster toward Earth
 <video class = "blog_video" autoplay loop muted playsinline width="100%">
     <source type="video/webm" src="/assets/images/images_blog/F9_booster_recovery/grid_fins_deployment.webm">
 </video>
+<figcaption style = "text-align: justify"><small><strong>Animation 2:</strong> Grid fins deployment for aerodynamic control.<i>Credit: SpaceX.</i></small></figcaption>
+
 
 ### 4. Entry Burn
 This is the second of three burns where 3 of the M1D engines are ignited to help slow the stage down as it re-enters the upper part of the Earth’s atmosphere. This burn goes for about 20 seconds and drops speed from 3,000 miles per hour to about 560.
@@ -121,6 +124,7 @@ This is the second of three burns where 3 of the M1D engines are ignited to help
 <video class = "blog_video" autoplay loop muted playsinline width="100%">
     <source type="video/webm" src="/assets/images/images_blog/F9_booster_recovery/entry_burn.webm">
 </video>
+<figcaption style = "text-align: justify"><small><strong>Animation 3:</strong> Entry burn maneuver.<i>Credit: SpaceX.</i></small></figcaption>
 
 ### 5. Aerodynamic guidance
 Here the grid fins are used to steer the stage, adjusting its trajectory and stabilizing attitude to bring the booster to land. No M1D engines are lit, and cold gas thrusters are fired occasionally to help fins with attitude control.
@@ -131,6 +135,7 @@ At his stage, the central M1D engine lights one final time to slow down to about
 <video class = "blog_video" autoplay loop muted playsinline width="100%">
     <source type="video/webm" src="/assets/images/images_blog/F9_booster_recovery/landing_burn.webm">
 </video>
+<figcaption style = "text-align: justify"><small><strong>Animation 4:</strong> Landing burn burn maneuver.<i>Credit: SpaceX.</i></small></figcaption>
 
 ### 7. Arm Legs deployment
 Few seconds before landing, the arm legs are deployed to absorb the landing impact and provide stability to the first stage at touchdown.
@@ -141,11 +146,21 @@ The first stage lands either on ground or on the autonomous spaceport drone ship
 <video class = "blog_video" autoplay loop muted playsinline width="100%">
     <source type="video/webm" src="/assets/images/images_blog/F9_booster_recovery/touchdown.webm">
 </video>
-
+<figcaption style = "text-align: justify"><small><strong>Animation 5:</strong> Landing and recovery.<i>Credit: SpaceX.</i></small></figcaption>
 
 To sum up, this is how SpaceX lands the first-stages of their emblematic Falcon 9 and Falcon Heavy rockets. Despite achieving an engineering milestone and providing incredible sucessful landing rates, there is plenty of room for improvement. SpaceX is continuously working on updates and new methods to make the recovery system more reliable and robust to unexpected situations. Future challenges the team is facing range from second-stage recovery to landing their most ambitious rocket so far, the Starship.
 
+## References
 
+1) [SpaceX website](https://www.spacex.com/vehicles/falcon-9/)
+
+2) [Wikipedia article](https://en.wikipedia.org/wiki/SpaceX_reusable_launch_system_development_program)
+
+3) [Lars Blackmore's reserach](http://www.larsblackmore.com/)
+
+4) [Falcon 9 user's guide 2020](https://www.spacex.com/media/falcon_users_guide_042020.pdf)
+
+5) [Scott Manley youtube channel](https://www.youtube.com/channel/UCxzC4EngIsMrPmbm6Nxvb-A)
 
 -----------------------------------------------------------------------------------------------------
 
