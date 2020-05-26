@@ -71,7 +71,7 @@ Cubesats are cost-effective platforms to provide students with spacecraft design
  
 **2. Scientific applications**
 
-In addition to commercial applications, Cubesats can be used for space exploration, interplanetary missions, system testing in orbit or material and bomedical research under microgravity conditions.
+In addition to commercial applications, Cubesats can be used for space exploration, interplanetary missions, system testing in orbit or material and biomedical research under microgravity conditions.
 
 **3. Earth Observation**
 
