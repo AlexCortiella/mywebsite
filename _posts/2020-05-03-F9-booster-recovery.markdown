@@ -156,7 +156,7 @@ To sum up, this is how SpaceX lands the first-stages of their emblematic Falcon 
 
 2) [Wikipedia article](https://en.wikipedia.org/wiki/SpaceX_reusable_launch_system_development_program)
 
-3) [Lars Blackmore's reserach](http://www.larsblackmore.com/)
+3) [Lars Blackmore's research](http://www.larsblackmore.com/)
 
 4) [Falcon 9 user's guide 2020](https://www.spacex.com/media/falcon_users_guide_042020.pdf)
 
