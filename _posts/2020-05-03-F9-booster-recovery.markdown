@@ -12,7 +12,7 @@ topic: Falcon 9
 featured: yes
 tags: featured
 image: 
-  header: /assets/images/images_blog/F9_booster_recovery/F9_booster_recovery_med.jpg
+  header: /assets/images/images_blog/F9_booster_recovery/Falcon9-recovery.jpg
   thumb: /assets/images/images_blog/F9_booster_recovery/F9_booster_recovery_thumb_high.jpg
   caption: Photo by AUTHOR
   caption_url: link to pic author
