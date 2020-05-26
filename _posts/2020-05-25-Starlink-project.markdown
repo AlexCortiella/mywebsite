@@ -37,7 +37,7 @@ Elon Musk also stated that Starlink internet services will provide the revenue n
 
 As of 2020, around [41.3%](https://www.internetworldstats.com/stats.htm "internetworldstats") of the world’s population have no access to Internet. The map below displays the distribution of Internet around the world for the year 2017.
 
-![<small><strong>Figure 1:</strong> Share of individuals using internet around the world. Source:  (right).</small>](/assets/images/images_blog/starlink_project/share-of-individuals-using-the-internet.jpg){:height="100%" width="100%"}
+![<small><strong>Figure 1:</strong> Share of individuals using internet around the world. <i>Credit: WorldBank.</i></small>](/assets/images/images_blog/starlink_project/share-of-individuals-using-the-internet.jpg){:height="100%" width="100%"}
 
 
  As shown, the lowest share of internet access corresponds to under-developed countries, where the cost of building network infrastructure is unreliable. 
