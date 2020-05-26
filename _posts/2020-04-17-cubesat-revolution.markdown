@@ -28,7 +28,7 @@ Cubesats are usually put into Low-Earth Orbit (LEO), Earth-centered orbits with 
 
 ![<small><strong>Figure 2:</strong> <sup>3</sup>Cat-2Cat-2 CubeSat developed at NanoSat Lab by the Polytechnic University of Catalonia (left) and ISIS PPOD structure (right).</small>](/assets/images/images_blog/cubesat_revolution/3Cat2_And_PPOD_high.jpg){:height="100%" width="100%"}
 
-As an example, figure 2 on the left, shows the <sup>3</sup>Cat-2 nanosatellite developed developed by the Nanosat lab of the Polytechnic University of Catalonia back in 2016. The aim of the 3Cat-2 mission was to test dual frequency GNSS-R altimeter for Earth Observation and validate two in-house magnetometer and star-tracker devices. 3Cat-2 belongs to the 6U class of Cubesats, consisting of 6 1U modules arranged in a 3 x 2 grid structure with dimensions 100 mm x 243,7 mm x 340.5mm and total weight of 7.1 kg (15.7 lbs). On the right of figure 2, we can see the P-POD used to deploy the spacecraft from the launch vehicle.
+As an example, figure 2 on the left, shows the <sup>3</sup>Cat-2 nanosatellite developed developed by the Nanosat lab of the Polytechnic University of Catalonia back in 2016. The aim of the <sup>3</sup>Cat-2 mission was to test dual frequency GNSS-R altimeter for Earth Observation and validate two in-house magnetometer and star-tracker devices. <sup>3</sup>Cat-2 belongs to the 6U class of Cubesats, consisting of 6 1U modules arranged in a 3 x 2 grid structure with dimensions 100 mm x 243.7 mm x 340.5mm and total weight of 7.1 kg (15.7 lbs). On the right of figure 2, we can see the P-POD used to deploy the spacecraft from the launch vehicle.
 
 Figure 3 shows an exploded view of <sup>3</sup>Cat-2 with each of its 1U modules. Three of the modules were used as payload, equipped with all the instrumentation to perform the tests and experiments. The remaining modules were intended for controlling the spacecraft, generating and distributing electric power and running the on-board software. The top panel consisted of six planar antennas for communications.
 
@@ -37,13 +37,13 @@ Figure 3 shows an exploded view of <sup>3</sup>Cat-2 with each of its 1U modules
   <figcaption style = "text-align: justify"><small><strong>Figure 3:</strong> Exploded view of <sup>3</sup>Cat-2 showing its internal modules.</small></figcaption>
 </figure>
 
-<sup>3</sup>Cat-2Cat-2 was successfully put into a polar, 400 km Low-Earth Orbit by the Chinese Long March 2D launch vehicle in May 2016.
+<sup>3</sup>Cat-2 was successfully put into a polar, 400 km Low-Earth Orbit by the Chinese Long March 2D launch vehicle in May 2016.
 
 ## What is the cost to develop and launch a Cubesat? How long does it take the whole process?
 
 Developing Cubesats according to CubeSat standards contributes to cutting costs during the design and integration phases. Their small size and light weight also reduce the expenses of transportation and deployment. The total amount for developing a CubeSat, excluding launch, depends on the type of the mission, on-board instrumentation, size and weight… As a reference, the average cost to build a commercial Cubesat is $100,000 per unit.
 
-Then, one needs to add the launch expenses, which depend on the type of orbit, carrier and wether it is a dedicated or a rideshare launch. Nowadays, there are many companies offering launch services for modest prices. The list below provides some rideshare launch costs of different providers:
+Then, one needs to add the launch expenses, which depend on the type of orbit, carrier and whether it is a dedicated or a rideshare launch. Nowadays, there are many companies offering launch services for modest prices. The list below provides some rideshare launch costs from different providers:
 
 * ISIS Space (EU): $210,000 – 270,000 for 3U LEO
 * Rocket Lab (NZ): $70,000- 80,000 for 1U LEO and $200,000- 250,000 for 3U LEO
