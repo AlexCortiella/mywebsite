@@ -1,7 +1,7 @@
 ---
 layout: post
-subheadline: Space
-title:  How SpaceX lands Falcon 9 boosters?
+subheadline: Falcon 9
+title:  How does SpaceX land Falcon 9 boosters?
 teaser: "After several attempts and numerous flight tests, on December 22, 2015 at 01:29 UTC, SpaceX accomplished one of the milestones in the history of engineering: landing Falcon 9's first-stage autonomously from space. It was the first time that the first stage of an orbital rocket made a successful return and vertical landing. The dream of launch vehicle reusability came true. The effort and persistence finally paid off. But, how did SpaceX slow down and stabilize a craft travelling at 3,000 miles per hour?"
 
 publicationdate: May 3, 2020
