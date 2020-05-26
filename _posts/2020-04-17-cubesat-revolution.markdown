@@ -99,7 +99,7 @@ The first six Cubesats were launched in June 2003 abroad a Russian Rockot launch
 
 ![<small><strong>Figure 5:</strong> Nanosatellite launches with forecasts.  The launches from 1999 to 2002 were not considered CubeSats at that time. Credit: <i>nanosats.eu</i></small>](/assets/images/images_blog/cubesat_revolution/Nanosats_years_forecasts_2020-01-07.png){:height="100%" width="100%"}
 
-As shown in figure 7, CubeSats begun as technology demonstrators among universities. The success of early missions encouraged industry and startup companies to adopt these tiny satellites for their services and operations.
+As shown in figure 6, CubeSats begun as technology demonstrators among universities. The success of early missions encouraged industry and startup companies to adopt these tiny satellites for their services and operations.
 
 ![<small><strong>Figure 6:</strong> Nanosatellite launches by organizations. Credit: <i>nanosats.eu</i></small>](/assets/images/images_blog/cubesat_revolution/Nanosats_years_organisations_2020-01-07.png){:height="100%" width="100%"}
 
