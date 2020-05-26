@@ -117,7 +117,7 @@ Exploration of deep space marks the next giant leap for nanosatellites. There ar
 
 Affordable nanosatellites are also a kind of gateway technology for those looking to get involved in space exploration.  Nations including Colombia, Poland, Estonia, Hungary, Romania and Pakistan have begun their own space programs by hitching a ride with a CubeSat. The Japanese Space Agency has collaborated with the United Nations Office for Outer Space Affairs (UNOOSA) to set up KiboCUBE, a project that offers developing countries the opportunity to deploy their own CubeSats from the ISS. This opens the possibility of future international cooperation and knowledge transfer, boosting the aerospace sector.
 
-More small spacecraft are on the way and it seems they will revolutionize the aerospace sector as a low-cost, faster alternative to access space. National Aerospace Agencies, Universities, research Laboratories and startup companies are set to launch a variety of new CubeSats in coming years. The future of these tiny satellites is promising and only time will tell how far they can get.
+More small spacecraft are on the way and it seems they will revolutionize the aerospace sector as a low-cost, faster alternative to access space. National Aerospace Agencies, Universities, research Laboratories and startup companies are set to launch a variety of new CubeSats in coming years. The future of these tiny satellites is promising and only time will tell how far they can go.
 
 ## References
 
