@@ -14,6 +14,10 @@ Engineering relies heavily on mathematical models of real systems. In the design
 # Method
 The approach used to recover the governing equations of the unknown system is based on regression with additional constraints promoting simplicity of the resulting model. We assume that the governing equations can be expressed as linear combinations of nonlinear candidate functions weighted by constant coefficients and only few of the nonlinear functions contribute to the system dynamics. The \\(\ell_1\\)-norm is used as a regularization constraint to select which of the candidate functions are most relevant to the dynamics.
 
+# Publications
+
+* [Alexandre Cortiella, Kwang-Chun Park, Alireza Doostan. Sparse Identification of Nonlinear Dynamical Systems via Reweighted ℓ1-regularized Least Squares. Preprint. Submitted for publication. Vol. 1 - 1 (2020):pp. 1-33](https://arxiv.org/abs/2005.13232 "Link to preprint")
+
 
 
 
