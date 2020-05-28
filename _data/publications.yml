@@ -17,3 +17,13 @@
   year: 2016
   publisher: IEEE
   url: https://ieeexplore.ieee.org/abstract/document/7500113
+
+- title: Sparse Identification of Nonlinear Dynamical Systems via Reweighted ℓ1-regularized Least Squares
+  authors: Alexandre Cortiella, Kwang-Chun Park, Alireza Doostan
+  journal: Preprint. Submitted for publication
+  volume: 1 
+  number: 1 
+  pages: "1-33"
+  year: 2020
+  publisher: arXiv:2005.13232
+  url: https://arxiv.org/abs/2005.13232
