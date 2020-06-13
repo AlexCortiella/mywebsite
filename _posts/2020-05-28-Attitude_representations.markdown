@@ -54,7 +54,7 @@ $$\hat{\mathbf{b}}_3 = \text{cos}(\alpha_{31})\hat{\mathbf{a}}_1 + \text{cos}(\a
 
 <figure style = "text-align: center">
   <img src="/assets/images/images_blog/Attitude_representations/3d_reference_frames.jpg" width="70%">
-  <figcaption style = "text-align: justify"><small><strong>Figure 2:</strong> Direction cosines of reference frame B reltaive to A.</small></figcaption>
+  <figcaption style = "text-align: justify"><small><strong>Figure 1:</strong> Direction cosines of reference frame B reltaive to A.</small></figcaption>
 </figure>
 
 For convenience, we can stack the basis vectors as rows of a matrix, called "vectrix", and express the relations above as 
