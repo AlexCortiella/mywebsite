@@ -6,7 +6,7 @@ permalink: /project_TopOpt/
 
 # Overview
 
-This project, concluded in my B.S. thesis, was concerned with the optimization of an aircraft wing rib structure subject to aerodynamic pressure loads. Topology Optimization (TO) techniques were employed to perform such task. In few words, Topology optimization (TO) is a mathematical method that optimizes material layout within a given design space, for a given set of loads, boundary conditions and constraints with the goal of maximizing the performance of the system. In this project, we used Finite Element Analysis along with constrained nonlinear optimization techniques to maximize the compliance of the struture subject to mass constraints.
+This project, concluded with my B.S. thesis, was concerned with the optimization of an aircraft wing rib structure subject to aerodynamic pressure loads. Topology Optimization (TO) techniques were employed to perform such task. In few words, Topology optimization (TO) is a mathematical method that optimizes material layout within a given design space, for a given set of loads, boundary conditions and constraints with the goal of maximizing the performance of the system. In this project, we used Finite Element Analysis along with constrained nonlinear optimization techniques to maximize the compliance of the struture subject to mass constraints.
 
 <figure style = "text-align: center">
   <img src="/assets/images/images_projects/topology_optimization_example.png" width="60%">
