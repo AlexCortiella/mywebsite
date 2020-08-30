@@ -37,6 +37,8 @@ author_image: "/assets/images/my_profile/author_med.jpg"
 # Build settings
 permalink: pretty
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
 plugins:
   #- jekyll-feed
   - jemoji
