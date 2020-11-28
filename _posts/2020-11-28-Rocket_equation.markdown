@@ -12,8 +12,8 @@ topic: Rockets
 featured: yes
 tags: featured
 image: 
-  header: /assets/images/images_blog/Rocket_equation/Rocket_equation_cover.jpg
-  thumb: /assets/images/images_blog/Rocket_equation/Rocket_equation_thumb.jpg
+  header: /assets/images/images_blog/Rocket_equation/rocket_equation_cover.jpg
+  thumb: /assets/images/images_blog/Rocket_equation/rocket_equation_thumb.jpg
   caption: Photo by AUTHOR
   caption_url: link to pic author
 ---
