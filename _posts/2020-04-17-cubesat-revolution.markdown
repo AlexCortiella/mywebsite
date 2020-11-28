@@ -39,7 +39,7 @@ Figure 3 shows an exploded view of <sup>3</sup>Cat-2 with each of its 1U modules
 
 <sup>3</sup>Cat-2 was successfully put into a polar, 400 km Low-Earth Orbit by the Chinese Long March 2D launch vehicle in May 2016.
 
-## What is the cost to develop and launch a Cubesat? How long does it take the whole process?
+## What is the cost to develop and launch a Cubesat? How long does the whole process take?
 
 Developing Cubesats according to CubeSat standards contributes to cutting costs during the design and integration phases. Their small size and light weight also reduce the expenses of transportation and deployment. The total amount for developing a CubeSat, excluding launch, depends on the type of the mission, on-board instrumentation, size and weight… As a reference, the average cost to build a commercial Cubesat is $100,000 per unit.
 
