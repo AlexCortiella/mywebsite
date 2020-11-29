@@ -18,7 +18,7 @@ image:
   caption_url: link to pic author
 ---
 
-**Note:** This post requires some basic knowledge of differential calculus.
+**Note:** This post requires some basic knowledge of vector and differential calculus.
 
 ## Variable mass system dynamics
 
