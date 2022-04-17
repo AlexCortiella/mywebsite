@@ -20,10 +20,20 @@
 
 - title: Sparse Identification of Nonlinear Dynamical Systems via Reweighted ℓ1-regularized Least Squares
   authors: Alexandre Cortiella, Kwang-Chun Park, Alireza Doostan
-  journal: Preprint. Submitted for publication
-  volume: 1 
-  number: 1 
-  pages: "1-33"
-  year: 2020
-  publisher: arXiv:2005.13232
-  url: https://arxiv.org/abs/2005.13232
+  journal: Computer Methods in Applied Mechanics and Engineering
+  volume: 376 
+  number: 
+  pages: "113620"
+  year: 2021
+  publisher: Elsevier
+  url: https://www.sciencedirect.com/science/article/pii/S0045782520308057?casa_token=GZ_dJyWuSiIAAAAA:HAV4TPz4YqvWa8D4TtJdOi33ZihdU64Z-68Rkz5JIMMqGrWdeI7Jam368FteWVmfhPzpKMz01w
+
+  - title: A Priori Denoising Strategies for Sparse Identification of Nonlinear Dynamical Systems - A Comparative Study
+  authors: Alexandre Cortiella, Kwang-Chun Park, Alireza Doostan
+  journal: ArXiv
+  volume: 1
+  number: 1
+  pages: "1-39"
+  year: 2022
+  publisher: arxiv
+  url: https://arxiv.org/abs/2201.12683
