@@ -1,20 +1,35 @@
 - id: 1
+  company: INSIEME PSAAP-III at Stanford
+  date: Mar 2022 – Present
+  location: Boulder, CO / Stanford, CA, U.S.A
+  position: Postdoctoral Researcher
+  description: PSAAP-III project researcher
+  advisor: Dr. Alireza Doostan
+  collapsible_header1: Tasks
+  collapsible_header2: 
+  collapsible_body: 
+    - Currently doing research on uncertainty quantification and deep learning of exascale Multiphysics simulation ensembles.
+    - Researcher in the Predictive Science Academic Alliance Program at Stanford University working on the Integrated Simulations using Exascale Multiphysics Ensembles (INSIEME project).
+
+
+- id: 2
   company: Aerospace Mechanics Research Center (AMReC)
-  date: Jan 2017 – Present
+  date: Jan 2017 – Mar 2022
   location: Boulder, CO, U.S.A
-  position: Graduate research assistant
+  position: Research Associate
   description: Investigated novel finite element algorithms (FEA) for multiphysics interactions
   advisor: Dr. Alireza Doostan & Dr. K.C. Park
   collapsible_header1: Tasks
   collapsible_header2: 
   collapsible_body: 
-   - Analyzed the performance and accuracy of algorithms for non-matching interfaces - global and localized Lagrange multipliers, Mortar-like methods and projection techniques.
-   - Investigated the performance of mixed finite element formulations for acoustic fluid-structure interaction and liquid sloshing.
-   - Implemented staggered fluid-structure interaction algorithms with moving meshes.
-   - Developed novel numerical techniques for dynamic coupling of elastic structures under thermal loads.
-   - Currently working on nonlinear system identification of aerospace systems from noisy measurements using mechine learning techniques.
+    - Developed dual state and parameter estimation algorithms based on Bayesian Inference methods.
+    - Devised novel algorithms for data-driven dynamical model identification from noisy data using sparse regularization and machine learning techniques.
+    - Developed partitioned finite element thermal-structure and fluid-structure interaction algorithms.
+    - Presented research at various workshops and conferences including SIAM Computational Science and Engineering 2021.
+    - Served as a teaching assistant for Structures and Materials course, mentored students, and prepared lectures.
 
-- id: 2
+
+- id: 3
   company: Laboratory for Atmospheric and Space Physics (LASP)
   date: Jun 2018 – Aug 2018
   location: Boulder, CO, U.S.A
@@ -29,16 +44,18 @@
     - Developed software to model Jupiter radiation environment.
 
 
-- id: 3
+- id: 4
   company: UPC Nanosat Lab     
   date: May 2015 – Aug 2016
   location: Barcelona, Spain	
-  position: GNC Researcher
+  position: GNC Engineer
   description: Designed, developed and simulated the attitude determination and control system of a 6U nanosatellite.
   advisor: Dr. Adriano Camps
   collapsible_header1: Tasks
   collapsible_header2: 
   collapsible_body: 
-   - Developed and designed control and determination algorithms of a 6U Cubesat whose aim is to test a new dual frequency GNSS-R altimeter for an Earth Observation mission. 
-   - Analyzed, simulated and validated tests of attitude determination and control systems (ADCS) for nanosatellites focused on magnetic actuation and reaction wheels. Performed Monte Carlo and sensitivity analyses.
-   - Programmed a spacecraft attitude dynamics and control simulator for nanosatellites focused on Low Earth Orbit missions. 
+    - Designed and implemented attitude determination and control algorithms for a Earth Observation nanosatellite.
+    - Programmed a spacecraft flight dynamics simulator for Low Earth Orbit nanosatellite missions.
+    - Planned, executed, evaluated, and supervised all phases of spacecraft flight dynamics, estimation, and control operations.
+    - Collaborated and scheduled critical review meetings with industry partners from Elecnor Deimos.
+
