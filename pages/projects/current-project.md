@@ -4,19 +4,15 @@ permalink: /current-project/
 ---
 
 # Overview
-The project focuses on nonlinear system identification, the aim of which is to identify and understand a physical system from noisy measurements and predict its behavior. Specifically, the main goal is to recover the governing equations of an unknown system via sparse regularized regression methods. 
+The objective of the INSIEME project under PSAAP III is to exploit Exascale computing systems to predict a complex multi-physics phenomenon with combined innovations in task-based programming, runtime environments, physical models, numerical algorithms, data analysis, learning at scale and uncertainty quantification. 
 
-![Current research](/assets/images/images_projects/SID_Dynamics.jpg){:class="img-markdown"}
+![Current research](/assets/images/images_projects/insieme_psaap_project.png){:class="img-markdown"}
 
 # Motivation
-Engineering relies heavily on mathematical models of real systems. In the design process, engineers seek the best models that describe the physical system they want to design and optimize. However, physical processes are often highly complex and not entirely understood, so the modeling of the first principles can be challenging, sometimes even impossible. System identification is the science of extracting a model from a set of observations or measurements. By looking at how a system behaves in specific situations, we can determine whether there are patterns in the behavior and what factors influence it.
+The overarching problem is the prediction of reliability of in-space ignition of cryogenic methane and liquid oxygen propellants in a rocket combustor by using pulsed high-energy lasers. Laser-induced ignition, as opposed to pyrotechnic or pyrophoric ignition, allows repeatable, controlled ignition which is key to attitude control and injection of spacecrafts in orbit. The problem involves a broad set of physical phenomena, including multiphase compressible fluid dynamics, phase change, turbulence, mixing, laser-induced ignition, and combustion.
 
 # Method
-The approach used to recover the governing equations of the unknown system is based on regression with additional constraints promoting simplicity of the resulting model. We assume that the governing equations can be expressed as linear combinations of nonlinear candidate functions weighted by constant coefficients and only few of the nonlinear functions contribute to the system dynamics. The \\(\ell_1\\)-norm is used as a regularization constraint to select which of the candidate functions are most relevant to the dynamics.
-
-# Publications
-
-* [Alexandre Cortiella, Kwang-Chun Park, Alireza Doostan. Sparse Identification of Nonlinear Dynamical Systems via Reweighted ℓ1-regularized Least Squares. Preprint. Submitted for publication. Vol. 1 - 1 (2020):pp. 1-33](https://arxiv.org/abs/2005.13232 "Link to preprint")
+Laser-induced ignition has a game-changing technological potential for re-startable upper stage engines and reaction control thrusters of spacecrafts. A laser pulse of approximately 10 nanoseconds of duration with a wavelength of about 1000 nanometers is focused into a small spot of 10-100 microns of diameter in the rocket combustor, delivering a power density of 10- 100 gigawatts per square centimeter and breaking down the gaseous methane/liquid oxigen propellant mixture.
 
 
 

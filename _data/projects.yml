@@ -1,3 +1,9 @@
+- title: "Identification of the governing equations of nonlinear physical systems from noisy observations"
+  description: "This project focuses on nonlinear system identification, where the goal is to identify, understand and predict the behavior of a physical system by constructing an approximate model from noisy measurements. The resulting model can be used to understand the physical behavior of unknown complex phenomena and predict the behavior of the system."
+  image: "SID_Dynamics.jpg"
+  caption: "Nonlinear SID - Current project"
+  url: /current-project/
+
 - title: "Attitude Determination and Control of the 3Cat-2 nanosatellite"
   description: "Analysis, design and development of the attitude determination and control system of a 6-unit Cubesat"
   image: "3CAt2_Image.jpeg"

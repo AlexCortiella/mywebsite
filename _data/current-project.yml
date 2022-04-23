@@ -1,6 +1,6 @@
-title: "Identification of the governing equations of nonlinear physical systems from noisy observations"
-description: "This project focuses on nonlinear system identification, where the goal is to identify, understand and predict the behavior of a physical system by constructing an approximate model from noisy measurements. The resulting model can be used to understand the physical behavior of unknown complex phenomena and predict the behavior of the system."
-image: "SID_Dynamics.jpg"
-caption: "Nonlinear SID - Current project"
+title: "INSIEME PSAAP-III"
+description: "The objective of the INSIEME project under PSAAP III is to exploit Exascale computing systems to predict a complex multi-physics phenomenon with combined innovations in task-based programming, runtime environments, physical models, numerical algorithms, data analysis, learning at scale and uncertainty quantification. The overarching problem is the prediction of reliability of in-space ignition of cryogenic methane and liquid oxygen propellants in a rocket combustor by using pulsed high-energy lasers. The problem involves a broad set of physical phenomena, including multiphase compressible fluid dynamics, phase change, turbulence, mixing, laser-induced ignition, and combustion."
+image: "insieme_psaap_project.png"
+caption: "INSIEME PSAAP-III - Current project"
 url: /current-project/
   
