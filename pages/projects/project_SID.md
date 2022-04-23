@@ -1,6 +1,6 @@
 ---
-layout: current-project
-permalink: /current-project/
+layout: project_SID
+permalink: /project_SID/
 ---
 
 # Overview
